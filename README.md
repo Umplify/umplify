@@ -1,5 +1,5 @@
 # Umplify Technologies Inc.
-We just started refreshing this website to ensure its contents are consistent with our cutting-edge technology solutions. Please stay tuned, and we will back up online soon!
+We just started refreshing this website to ensure its contents are consistent with our cutting-edge technology solutions. Please stay tuned, and we will be back up online soon!
 
 # Have you heard of Digital Silo?
 Digital Silo is our unique serverless product that runs on Microsoft Azure. We write it as digital://silo
