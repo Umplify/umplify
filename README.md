@@ -8,7 +8,7 @@ Digital Silo is our unique serverless product that runs on Microsoft Azure.
 **We like to write it as digital://silo**
 
 
-Digital Silo executes stateless tasks, aka Grains, in an asynchronous scalable serverless environment. It accelerates the steps of making an application serverless-ready by helping developers concentrate on business logic only. Please feel free to take a look at Digital Silo's website at: https://digitalsilo.io.
+Digital Silo executes stateless tasks, aka Grains, in an asynchronous scalable serverless environment. It accelerates the steps of making an application serverless-ready by helping developers concentrate on business logic only. Please feel free to take a look at [Digital Silo's website](https://digitalsilo.io).
 
 # A cool Xunit library!
 
