@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Umplify"
+title: "Cloud-Native Solutions."
 author_profile: false
 layout: splash
 classes:
@@ -13,9 +13,9 @@ header:
   actions:
     - label: "Getting started"
       url: "/start"
-excerpt: "A mighty serverless solution on Azure to run tasks asynchrnously. Provision yours now!" 
+excerpt: "A team of senior software developers and architects ready to deliver cloud-native applications." 
 intro:
-  - excerpt: Digital Silo executes stateless tasks, aka Grains in an asynchronous scalable serverless environment. It accelerates the steps of making an application serverless-ready by helping developers concentrate on business logic only.
+  - excerpt: We are expert in the Microsoft Azure Cloud technology and harness its powerful platform to transform your business with cloud-native application modernization.
 feature_row:
   - image_path: /assets/images/splash/developer.svg
     title: 1. Develop the grains
@@ -38,53 +38,20 @@ feature_row:
 
 feature_row_right1:
   - image_path: /assets/images/cloud.svg
-    title: Digital Silo is serverless
-    excerpt: Whatever Digital Silo does is not running on a dedicated server or server farm. The sky is the limit, and the grain processing kernel resides on serverless infrastructure. What happens behind the scene stays there without getting developers involved with managing that spectrum.
-    url: digital-silo-is-serverless
+    title: Our mission
+    excerpt: Our partnership with your company leads to deliver innovative cloud solutions in every stage of your application's lifecycle. We adapt Agile methodology through the collaborative effort to ensure the seamless delivery of your product at scale. 
+    url: our-mission
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 feature_row_left1:
-  - image_path: /assets/images/integration.svg
-    title: It's RESTful, integration made easy!
-    excerpt: Digital Silo's integration gate is a simple RESTful Web API that allows developers to integrate their applications regardless of their adopted coding technology to submit or terminate grains effortlessly. Responses are communicated back over WebSockets asynchronously as soon as they become ready.
-    url: digital-silo-is-restful
+  - image_path: /assets/images/flexibility_software.svg
+    title: What we offer
+    excerpt: We offer world-class reliable cloud solutions tailored to your needs which scale as your business grows. We transform your products to improve their reliability, security, availability, and scalability. Our application architects will help you audit your existing applications and choose the best approach for cloud migration so that you can unlock the power of cloud-native application development.
+    url: what-umplify-offers
     btn_label: "Read More"
     btn_class: "btn--primary"  
    
-feature_row_right2:
-  - image_path: /assets/images/coding.svg
-    title: Easy-to-develop grains
-    excerpt: A grain is a stateless component that encapsulates a specific business logic that runs throughout Digital Silo. Introducing a grain is as simple as following a few key steps.
-    url: digital-silo-grain-development
-    btn_label: "Read More"
-    btn_class: "btn--primary"    
-
-feature_row_left2:
-  - image_path: /assets/images/send.svg
-    title: Submit and forget!
-    excerpt: Just activate the grains by submitting their respective payloads, aka requests in JSON format, via a single entry point. Digital Silo will notify your client application promptly once the grain processing result becomes available.
-    url: digital-silo-submit-forget
-    btn_label: "Read More"
-    btn_class: "btn--primary"    
-
-feature_row_right3:
-  - image_path: /assets/images/flexibility_software.svg
-    title: Flexible in coding, flexbile in action
-    excerpt: Digital Silo is a collection of independent tasks. Its abstracted layers makes it flexible enough to accommodate the fulfillment instructions by facilitating running grains in any order, lining them up, or deferring each grain's process to the future.
-    url: digital-silo-grain-processing
-    btn_label: "Read More"
-    btn_class: "btn--primary"     
-
-feature_row_left4:
-  - image_path: /assets/images/secure.svg
-    title: It's Secure
-    excerpt: All components and tiers of Digital Silo, starting from the client application, are secured by Microsoft Azure's Active Directory system. Digital Silo rejects requests made without a valid authorization token to ensure that the trusted origins are served only.
-
-feature_row_right5:
-  - image_path: /assets/images/controlpanel.svg
-    title: Visual progress status
-    excerpt: Digital Silo keeps reporting the progress status of grains throughout WebSockets. Replicate [this Digital Silo's UI Github repository](https://github.com/DigitalSilo/digitalsiloui) and start watching how your grains' progress unfolds in real-time!
  
   
 # feature_row_techs:
@@ -99,11 +66,7 @@ feature_row_right5:
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="feature_row_right1" type="right" %}
 {% include feature_row id="feature_row_left1" type="left" %}
-{% include feature_row id="feature_row_right2" type="right" %}
-{% include feature_row id="feature_row_left2" type="left" %}
-{% include feature_row id="feature_row_right3" type="right" %}
-{% include feature_row id="feature_row_left4" type="left" %}
-{% include feature_row id="feature_row_right5" type="right" %}
+
 
 # Scalable . Abstract . Modern 
 {: .text-center}
