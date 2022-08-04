@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "Cloud Solutions"
-    url: /Solutions/
+    url: /cloud-solutions/
   - title: "Blog"
     url: /posts/ 
   - title: "About"
