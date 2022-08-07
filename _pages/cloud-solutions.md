@@ -4,34 +4,64 @@ sitemap: false
 layout: splash
 permalink: /cloud-solutions/
 
-feature_row_left:
-  - image_path: /assets/images/splash/404.svg
+feature_row_left1:
+  - image_path: /assets/images/flexibility_software.svg
+    title: Azure Cloud Enrollment
+    excerpt: We tailored this process to help companies considering cloud adoption, or they are at the early stage of adopting it for their business.
+    url: azure-cloud-enrollment
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+feature_row_right1:
+  - image_path: /assets/images/cloud.svg
+    title: SaaS Transformation
+    excerpt: We help your business to transform your existing applications successfully to a Software-as-a-Service (Saas) architecture for further security, high availability and resilience on Azure Cloud.
+    url: saas-transformation
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+feature_row_left2:
+  - image_path: /assets/images/flexibility_software.svg
+    title: Migration to Event-Driven architecture
+    excerpt: Our extensive experience in Azure cloud platform led us to implement DigitalSilo, a state-of-art event-driven serverless framework to run stateless tasks at scale. We can help your team to adopt this framework to harness the power of Azure cloud for computation.
+    url: digital-silo
+    btn_label: "Read More"
+    btn_class: "btn--primary"    
+
+feature_row_right2:
+  - image_path: /assets/images/cloud.svg
+    title: Revamping web apps by going serverless
+    excerpt: We leverage the knowledge we gained during the implementation of DigitalSilo to offer a robust and end-to-end solution to modernize your web applications and web apis by going serverless. Azure cloud's serverless environment is an excellent choice for scalability, security and traffic resilience.
+    url: seerverless-web-apis
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+feature_row_left3:
+  - image_path: /assets/images/flexibility_software.svg
+    title: Adopting Infrastructure-as-a-Code (IaaC)
+    excerpt: Our DevOps engineers can help your company to programmatically provision the physical resources that your application requires to run on Azure. We use the most modern technolgies in the market like Terraform and Bicep to eliminate the manual process of creating your Azure resources.
+    url: infrastructure-provisioning
+    btn_label: "Read More"
+    btn_class: "btn--primary"   
+
+feature_row_right33:
+  - image_path: /assets/images/flexibility_software.svg
+    title: Storage decentralization
+    excerpt: We help your business decentralize your data primarily on Azure Cloud infrastructure by leveraging the most cutting-edge protocols in industry. We create a private cluster of peer-to-peer nodes where you can store and retrieve your files securely, reliably with 99.999% availability 27/7/365.
+    url: storage-decentralization
+    btn_label: "Read More"
+    btn_class: "btn--primary"   
 ---
 
-{% include feature_row id="feature_row_left" type="left" %}
 
 # Our Azure Cloud solutions elevates your business to the next level.
 
 No matter of where your business level is, Umplify Inc., always offers a proven approach to take your business to the next level. That's done primarily by automating agile software development and continuous delivery to cloud horizontally and vertically. Umplify Inc. is a one-stop solution provider for your business should you wish to leverage security on cloud, Content Delivery Network aka CDN, API Management and migrate to a serverless environment.
 
 
-## Azure Cloud Enrollment
-
-We have tailored this solution to help companies considering cloud adoption, or they are at their early stage of adopting it for their business. This solution or process comprises the following phases:
-
-### Assessment
-
-Our senior developers and architects are expert in the Microsoft Azure Cloud technology and harness its powerful platform to transform your business with cloud-native application modernization. We have architectured and constructed some enterprise applications using the most advanced and cutting-edge cloud technologies. We engage our subject-matter experts with your key team members to review, understand your business model, and document the current status and your ultimate goal. In this phase, we also try to intake key requirements including security, application architecture, user traffic, infrastructure, DevOps, and the allocated budget.
-
-### Implementing success strategy
-
-We leverage a team of unparalleled architects and star developers at Umplify. Following the assessment phase this team dives into the collected data and information to analyze and discusses the requirements to come up with a sustainable, scalable and modern solutions for your business. Should further consultation, idea verification and clarification become necessary, we will reach out to seek your team's inputs during this phase. 
-
-
-### Presentation
-
-we present our recommendations during a meeting to discuss our strategy in putting a sustainable infrastructure and application architecture in place. We will highlight the construction phase's necessary tools, code release and branching strategies, Azure Cloud components to utilize, associated costs, the extent of scalability and resilience, DevOps, and automation to deploy the application to multiple environments like Dev, Test, UAT and production. 
-
-### Implementation
-
-Implementing and developing the cloud applications is our key service to our clients. We will partner with your company to implement your cloud application in house at Umplify, or to extend your development team by embedding our resources into it to commence the construction phase. Should you wish to employ our strategy in cloud adoption, the presentation phase will conclude our engagement while we are always available for further consultation and solution augmentation.
+{% include feature_row id="feature_row_left1" type="left" %}
+{% include feature_row id="feature_row_right1" type="right" %}
+{% include feature_row id="feature_row_left2" type="left" %}
+{% include feature_row id="feature_row_right2" type="right" %}
+{% include feature_row id="feature_row_left3" type="left" %}
+{% include feature_row id="feature_row_right3" type="right" %}
