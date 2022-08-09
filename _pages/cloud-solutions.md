@@ -8,7 +8,7 @@ feature_row_left1:
   - image_path: /assets/images/flexibility_software.svg
     title: Azure Cloud Enrollment
     excerpt: We tailored this process to help companies considering cloud adoption, or they are at the early stage of adopting it for their business.
-    url: azure-cloud-enrollment
+    url: cloud-solutions/azure-cloud-enrollment
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -16,7 +16,7 @@ feature_row_right1:
   - image_path: /assets/images/cloud.svg
     title: SaaS Transformation
     excerpt: We help your business to transform your existing applications successfully to a Software-as-a-Service (Saas) architecture for further security, high availability and resilience on Azure Cloud.
-    url: saas-transformation
+    url: cloud-solutions/saas-transformation
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -24,7 +24,7 @@ feature_row_left2:
   - image_path: /assets/images/flexibility_software.svg
     title: Migration to Event-Driven architecture
     excerpt: Our extensive experience in Azure cloud platform led us to implement DigitalSilo, a state-of-art event-driven serverless framework to run stateless tasks at scale. We can help your team to adopt this framework to harness the power of Azure cloud for computation.
-    url: digital-silo
+    url: cloud-solutions/event-driven-architecture
     btn_label: "Read More"
     btn_class: "btn--primary"    
 
@@ -32,7 +32,7 @@ feature_row_right2:
   - image_path: /assets/images/cloud.svg
     title: Revamping web apps by going serverless
     excerpt: We leverage the knowledge we gained during the implementation of DigitalSilo to offer a robust and end-to-end solution to modernize your web applications and web apis by going serverless. Azure cloud's serverless environment is an excellent choice for scalability, security and traffic resilience.
-    url: seerverless-web-apis
+    url: cloud-solutions/serverless-web-apps
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -40,15 +40,15 @@ feature_row_left3:
   - image_path: /assets/images/flexibility_software.svg
     title: Adopting Infrastructure-as-a-Code (IaaC)
     excerpt: Our DevOps engineers can help your company to programmatically provision the physical resources that your application requires to run on Azure. We use the most modern technolgies in the market like Terraform and Bicep to eliminate the manual process of creating your Azure resources.
-    url: infrastructure-provisioning
+    url: cloud-solutions/infrastructure-provisioning
     btn_label: "Read More"
     btn_class: "btn--primary"   
 
 feature_row_right33:
   - image_path: /assets/images/flexibility_software.svg
     title: Storage decentralization
-    excerpt: We help your business decentralize your data primarily on Azure Cloud infrastructure by leveraging the most cutting-edge protocols in industry. We create a private cluster of peer-to-peer nodes where you can store and retrieve your files securely, reliably with 99.999% availability 27/7/365.
-    url: storage-decentralization
+    excerpt: We help your business decentralize its data primarily on Azure Cloud infrastructure by leveraging the most cutting-edge protocols in industry. We create a private cluster of peer-to-peer nodes where you can store and retrieve your files securely, reliably with 99.999% availability 24/7/365.
+    url: cloud-solutions/storage-decentralization
     btn_label: "Read More"
     btn_class: "btn--primary"   
 ---
