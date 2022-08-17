@@ -2,7 +2,7 @@
 title: "Azure Cloud Enrollment"
 sitemap: false
 layout: splash
-permalink: /azure-cloud-enrollment/
+permalink: /cloud-solutions/azure-cloud-enrollment/
 
 feature_row_left:
   - image_path: /assets/images/splash/404.svg
@@ -13,7 +13,7 @@ feature_row_left:
 
 # Azure Cloud Enrollment
 
-We have tailored this solution to help companies considering cloud adoption, or they are at their early stage of adopting it for their business. This solution or process comprises the following phases:
+We have tailored this solution to help companies considering cloud adoption, or they are at their early stage of adopting it for their business. This solution comprises the following phases:
 
 ## Assessment
 
