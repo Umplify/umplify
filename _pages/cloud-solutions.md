@@ -24,7 +24,7 @@ feature_row_left2:
   - image_path: /assets/images/flexibility_software.svg
     title: Migration to Event-Driven architecture
     excerpt: Our extensive experience in Azure cloud platform led us to implement DigitalSilo, a state-of-art event-driven serverless framework to run stateless tasks at scale. We can help your team to adopt this framework to harness the power of Azure cloud for computation.
-    url: cloud-solutions/event-driven-architecture
+    url: https://digitalsilo.io
     btn_label: "Read More"
     btn_class: "btn--primary"    
 
@@ -44,12 +44,12 @@ feature_row_left3:
     btn_label: "Read More"
     btn_class: "btn--primary"   
 
-feature_row_right33:
+feature_row_right3:
   - image_path: /assets/images/flexibility_software.svg
-    title: Storage decentralization
-    excerpt: We help your business decentralize its data primarily on Azure Cloud infrastructure by leveraging the most cutting-edge protocols in industry. We create a private cluster of peer-to-peer nodes where you can store and retrieve your files securely, reliably with 99.999% availability 24/7/365.
-    url: cloud-solutions/storage-decentralization
-    btn_label: "Read More"
+    title: Storage decentralization (beta)
+    excerpt: We help your business decentralize its data primarily on Azure Cloud infrastructure by leveraging the most cutting-edge protocols in industry. We create a private cluster of peer-to-peer nodes where you can store and retrieve your files securely, reliably with 99.999% availability 24/7/365. Optionally turn every single machine in your organization to a peer-to-peer storage node for further redundancy without compromising the security.
+    url: TBD
+    btn_label: "Ask us how"
     btn_class: "btn--primary"   
 ---
 

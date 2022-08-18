@@ -13,20 +13,19 @@ feature_row_left:
 
 # Infrastructure Provisioning
 
-We have tailored this solution to help companies considering cloud adoption, or they are at their early stage of adopting it for their business. This solution or process comprises the following phases:
+We have tailored this solution to help companies considering provisioning their Azure Cloud application's infrastructure by code. This solution or process comprises the following phases:
 
 ## Assessment
 
-Our senior developers and architects are expert in the Microsoft Azure Cloud technology and harness its powerful platform to transform your business with cloud-native application modernization. We have architectured and constructed some enterprise applications using the most advanced and cutting-edge cloud technologies. We engage our subject-matter experts with your key team members to review, understand your business model, and document the current status and your ultimate goal. In this phase, we also try to intake key requirements including security, application architecture, user traffic, infrastructure, DevOps, and the allocated budget.
+Our senior developers, DevOps engineers and architects are expert in the Microsoft Azure Cloud technology and harness its powerful platform to transform your business with cloud-native application modernization. Our architects and DevOps engineers will engage with your software team to understand the architectural components of your application hosted on Azure Cloud.
 
 ## Implementing success strategy
 
-We leverage a team of unparalleled architects and star developers at Umplify. Following the assessment phase this team dives into the collected data and information to analyze and discusses the requirements to come up with a sustainable, scalable and modern solutions for your business. Should further consultation, idea verification and clarification become necessary, we will reach out to seek your team's inputs during this phase. 
-
+Once our DevOps engineers process the necessary information collected during the asssessment phase, they will implement a set of terraform or bicep scripts to provision your application's infrastructure on cloud. They will ensure that they can add, remove or update the cloud resources by the implemented scripts only. Developing such scripts will take place in Umplify's Azure Cloud subscription.
 
 ## Presentation
 
-we present our recommendations during a meeting to discuss our strategy in putting a sustainable infrastructure and application architecture in place. We will highlight the construction phase's necessary tools, code release and branching strategies, Azure Cloud components to utilize, associated costs, the extent of scalability and resilience, DevOps, and automation to deploy the application to multiple environments like Dev, Test, UAT and production. 
+We will arrange a demo session to present you how the implemented terraform or bicep script provisions your application's infrastructure on cloud. We will also show you how to invoke the scripts from Azure DevOps pipeline, command line or even as a template spec where applicable.
 
 ## Implementation
 

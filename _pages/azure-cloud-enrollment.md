@@ -30,4 +30,4 @@ we present our recommendations during a meeting to discuss our strategy in putti
 
 ## Implementation
 
-Implementing and developing the cloud applications is our key service to our clients. We will partner with your company to implement your cloud application in house at Umplify, or to extend your development team by embedding our resources into it to commence the construction phase. Should you wish to employ our strategy in cloud adoption, the presentation phase will conclude our engagement while we are always available for further consultation and solution augmentation.
+Implementing and developing the cloud applications is our key service to our clients. We will partner with your company to implement your cloud application in house at Umplify, or to extend your development team by embedding our resources into it to commence the construction phase. Should you wish to employ our strategy in cloud adoption only, the presentation phase will conclude our engagement while we are always available for further consultation and solution augmentation.
