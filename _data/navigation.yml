@@ -3,9 +3,7 @@ main:
     url: /
   - title: "Cloud Solutions"
     url: /cloud-solutions/
-  - title: "Blog"
-    url: /posts/ 
   - title: "About"
-    url: /About/
+    url: /about/
   - title: "Contact Us"
     url: /contact/  
