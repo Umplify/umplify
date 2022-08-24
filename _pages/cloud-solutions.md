@@ -6,57 +6,57 @@ permalink: /cloud-solutions/
 
 feature_row_left1:
   - image_path: /assets/images/flexibility_software.svg
-    title: Azure Cloud Enrollment
-    excerpt: We tailored this process to help companies considering cloud adoption, or they are at the early stage of adopting it for their business.
-    url: cloud-solutions/azure-cloud-enrollment
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  title: Azure Cloud Enrollment
+  excerpt: We tailored this process to help companies considering cloud adoption or are at the early stage of adopting it for their business.
+  url: cloud-solutions/azure-cloud-enrollment
+  btn_label: "Read More"
+  btn_class: "btn--primary"
 
-feature_row_right1:
+  feature_row_right1:
   - image_path: /assets/images/cloud.svg
-    title: SaaS Transformation
-    excerpt: We help your business to transform your existing applications successfully to a Software-as-a-Service (Saas) architecture for further security, high availability and resilience on Azure Cloud.
-    url: cloud-solutions/saas-transformation
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  title: SaaS Transformation
+  excerpt: We help your business transform your existing applications to a Software-as-a-Service (Saas) architecture for additional security, high availability, and resilience on Azure Cloud.
+  url: cloud-solutions/saas-transformation
+  btn_label: "Read More"
+  btn_class: "btn--primary"
 
-feature_row_left2:
+  feature_row_left2:
   - image_path: /assets/images/flexibility_software.svg
-    title: Migration to Event-Driven architecture
-    excerpt: Our extensive experience in Azure cloud platform led us to implement DigitalSilo, a state-of-art event-driven serverless framework to run stateless tasks at scale. We can help your team to adopt this framework to harness the power of Azure cloud for computation.
-    url: https://digitalsilo.io
-    btn_label: "Read More"
-    btn_class: "btn--primary"    
+  title: Migration to Event-Driven architecture
+  excerpt: Our extensive experience in the Azure cloud platform led us to implement DigitalSilo, a state-of-art event-driven serverless framework to run stateless tasks at scale. We can help your team to adopt this framework to harness the power of the Azure cloud for computation.
+  url: https://digitalsilo.io
+  btn_label: "Read More"
+  btn_class: "btn--primary" 
 
-feature_row_right2:
+  feature_row_right2:
   - image_path: /assets/images/cloud.svg
-    title: Revamping web apps by going serverless
-    excerpt: We leverage the knowledge we gained during the implementation of DigitalSilo to offer a robust and end-to-end solution to modernize your web applications and web apis by going serverless. Azure cloud's serverless environment is an excellent choice for scalability, security and traffic resilience.
-    url: cloud-solutions/serverless-web-apps
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  title: Revamping web apps by going serverless
+  excerpt: We leverage the knowledge we gained during the implementation of DigitalSilo to offer a robust and end-to-end solution to modernize your web applications and web APIs by going serverless. Azure cloud's serverless environment is an excellent choice for scalability, security, and traffic resilience.
+  url: cloud-solutions/serverless-web-apps
+  btn_label: "Read More"
+  btn_class: "btn--primary"
 
-feature_row_left3:
+  feature_row_left3:
   - image_path: /assets/images/flexibility_software.svg
-    title: Adopting Infrastructure-as-a-Code (IaaC)
-    excerpt: Our DevOps engineers can help your company to programmatically provision the physical resources that your application requires to run on Azure. We use the most modern technolgies in the market like Terraform and Bicep to eliminate the manual process of creating your Azure resources.
-    url: cloud-solutions/infrastructure-provisioning
-    btn_label: "Read More"
-    btn_class: "btn--primary"   
+  title: Adopting Infrastructure-as-a-Code (IaaC)
+  excerpt: Our DevOps engineers can help your company programmatically provision the physical resources that your application requires to run on Azure. We use the most modern technologies in the market like Terraform and Bicep to eliminate the manual process of creating your Azure resources.
+  url: cloud-solutions/infrastructure-provisioning
+  btn_label: "Read More"
+  btn_class: "btn--primary" 
 
-feature_row_right3:
+  feature_row_right3:
   - image_path: /assets/images/flexibility_software.svg
-    title: Storage decentralization (beta)
-    excerpt: We help your business decentralize its data primarily on Azure Cloud infrastructure by leveraging the most cutting-edge protocols in industry. We create a private cluster of peer-to-peer nodes where you can store and retrieve your files securely, reliably with 99.999% availability 24/7/365. Optionally turn every single machine in your organization to a peer-to-peer storage node for further redundancy without compromising the security.
-    url: TBD
-    btn_label: "Ask us how"
-    btn_class: "btn--primary"   
+  title: Storage decentralization (beta)
+  excerpt: We help your business decentralize its data primarily on Azure Cloud infrastructure by leveraging the most cutting-edge protocols in the industry. We create a private cluster of peer-to-peer nodes where you can store and retrieve your files securely and reliably with 99.999% availability 24/7/365. Optionally turn every single machine in your organization into a peer-to-peer storage node for further redundancy without compromising the security.
+  url: TBD
+  btn_label: "Ask us how"
+  btn_class: "btn--primary" 
 ---
 
 
 # Our Azure Cloud solutions elevates your business to the next level.
 
-No matter of where your business level is, Umplify Inc., always offers a proven approach to take your business to the next level. That's done primarily by automating agile software development and continuous delivery to cloud horizontally and vertically. Umplify Inc. is a one-stop solution provider for your business should you wish to leverage security on cloud, Content Delivery Network aka CDN, API Management and migrate to a serverless environment.
+No matter where your business level is, Umplify Inc. always offers a proven approach to take your business to the next level. That's done primarily by automating agile software development and continuous delivery to the cloud horizontally and vertically. Umplify Inc. is a one-stop solution provider for your business should you want to leverage cloud security, Content Delivery Network CDN, API Management, and migrate to a serverless environment.
 
 
 {% include feature_row id="feature_row_left1" type="left" %}
