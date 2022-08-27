@@ -1,13 +1,13 @@
 ---
-  title: "What we offer"
-  sitemap: false
-  layout: splash
-  permalink: /what-umplify-offers/
+title: "What we offer"
+sitemap: false
+layout: splash
+permalink: /what-umplify-offers/
 
-  feature_row_left:
+feature_row_left:
   - image_path: /assets/images/splash/404.svg
 
-  feature_row:
+feature_row:
   - title: Securing applications
   excerpt: We leverage an array of security tools available on Microsoft Azure to secure your software and its infrastructure to ensure your users are authentic and they are the ones who are supposed to access your platform. We also provide tools and solutions to store and retrieve your data on cloud infrastructure securely.
   - title: Building scalable Microservices

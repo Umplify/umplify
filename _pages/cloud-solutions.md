@@ -23,7 +23,7 @@
   feature_row_left2:
     - image_path: /assets/images/flexibility_software.svg
       title: Migration to Event-Driven architecture
-      excerpt: Our extensive experience in the Azure cloud platform led us to implement DigitalSilo, a state-of-art event-driven serverless framework to run stateless tasks at scale. We can help your team to adopt this framework to harness the power of the Azure cloud for computation.
+      excerpt: Our extensive experience in the Azure cloud platform led us to implement DigitalSilo, a state-of-art event-driven serverless framework to run stateless tasks at scale. DigitalSilo eliminates the burden of infrastructure-driven implementation by abstracting it. Digital Silo lets developers concentrate on constructing their business logic code, not the infrastructure. We can help your team to adopt this framework to harness the power of the Azure cloud for computation.
       url: https://digitalsilo.io
       btn_label: "Digital Silo"
       btn_class: "btn--primary" 

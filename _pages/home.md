@@ -68,18 +68,13 @@ feature_row_left1:
 {% include feature_row id="feature_row_left1" type="left" %}
 
 
-# Scalable . Abstract . Modern 
+# Your forward-thinking cloud journey partner
 {: .text-center}
 
-Digital Silo helps companies using .NET to build scalable, modern and Azure-ready serverless applications. It eliminates the burden of infrastructure-driven implementation by abstracting it. Digital Silo lets developers concentrate on constructing their business logic code, not the infrastructure.
+Our partnership with companies, including startups and enterprises, has led to the launch of many successful world-class cloud applications. With our Research & Development (R&D) background, We have worked with those organizations to design, build and deliver modern, innovative, and cloud-first applications that operate at scale. We are your forward-thinking and reliable partner in your cloud journey. 
+
 {: .text-center}
 
-# Only three steps, or maybe two!
-{: .text-center}
-You are just a few steps away from scaling your .NET application by Digital Silo.
-{: .text-center}
-
-{% include feature_row %}
 
 ![](../assets/images/technologies2.png){: .align-center}
 
