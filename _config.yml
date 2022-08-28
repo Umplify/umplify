@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Umplify | Toronto's Cloud Solutions, Architecture and Cloud-first Application development"
 title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Your cloud journey partner"
 name                     : "Umplify Technologies Inc."
 description              : "We are a team of senior software developers and architects expert in Microsoft Azure Cloud solution and .NET. We engage with your company to deliver cloud application tailored to your business needs by employing Microsoft's cutting-edge tehnologies."
 url                      : "https://umplify.com"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Umplify/umplify"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : Umplify
+masthead_title           : umplify
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:

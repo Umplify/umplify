@@ -38,7 +38,7 @@ feature_row:
 
 feature_row_right1:
   - image_path: /assets/images/cloud.svg
-    title: Our mission
+    title: "Our mission: Cloud First"
     excerpt: Our partnership with your company leads to deliver innovative cloud solutions in every stage of your application's lifecycle. We adapt Agile methodology through the collaborative effort to ensure the seamless delivery of your product at scale. 
     url: our-mission
     btn_label: "Read More"
