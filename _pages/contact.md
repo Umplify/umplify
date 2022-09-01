@@ -5,7 +5,7 @@ layout: splash
 permalink: /contact/
 
 feature_row_left:
-  - image_path: /assets/images/splash/404.svg
+  - image_path: /assets/images/splash/contactus.svg
     title: Contact us
     excerpt: Drop us a line please
 ---
