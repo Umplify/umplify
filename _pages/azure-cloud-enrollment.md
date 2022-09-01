@@ -5,15 +5,16 @@ layout: splash
 permalink: /cloud-solutions/azure-cloud-enrollment/
 
 feature_row_left:
-  - image_path: /assets/images/splash/404.svg
+  - image_path: /assets/images/splash/cloudenrollment.svg
+
+feature_row_left:
+  - image_path: /assets/images/splash/cloudenrollment.svg
+    title: Azure Cloud Enrollment
+    excerpt: Startups, Independent Software Vendors, and large enterprises are employing cloud infrastructure to make their products available 24/7, fault-tolerant, secure, and scalable as their businesses grow. This technological demand dictates modernizing applications' architecture to adapt models like Platform-as-a-Service (Paas), Software-as-a-Service (SaaS), or Infrastructure-as-a-Service (IaaS). With the evolving cloud technologies, our team has enough expertise to seamlessly steer your business through all possible challenges. We have tailored Azure Cloud Enrollment solution to help companies considering cloud adoption or are at the early stage of adopting it for their business.
 ---
 
 {% include feature_row id="feature_row_left" type="left" %}
 
-
-# Azure Cloud Enrollment
-
-We have tailored this solution to help companies considering cloud adoption or are at the early stage of adopting it for their business. This solution comprises the following phases:
 
 ## Assessment
 

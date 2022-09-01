@@ -5,15 +5,13 @@ layout: splash
 permalink: /cloud-solutions/serverless-web-apps/
 
 feature_row_left:
-  - image_path: /assets/images/splash/404.svg
+  - image_path: /assets/images/splash/webapps.svg
+    title: Serverless Web Apps
+    excerpt: Startups, Independent Software Vendors, and large enterprises are employing cloud infrastructure to make their products available 24/7, fault-tolerant, secure, and scalable as their businesses grow. This technological demand dictates modernizing applications' architecture to adapt models like Platform-as-a-Service (Paas), Software-as-a-Service (SaaS), or Infrastructure-as-a-Service (IaaS). With the evolving cloud technologies, our team has enough expertise to seamlessly steer your business through all possible challenges. We have tailored this solution to help companies consider adopting serverless architecture for their new or existing web apps like RESTful Web APIs.
 ---
 
 {% include feature_row id="feature_row_left" type="left" %}
 
-
-# Serverless Web Apps
-
-We have tailored this solution to help companies consider adopting serverless architecture for their new or existing web apps like RESTful Web APIs. This solution comprises the following phases:
 
 ## Assessment
 

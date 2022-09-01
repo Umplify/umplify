@@ -20,7 +20,7 @@ title                    : "Umplify | Toronto's Cloud Solutions, Architecture an
 title_separator          : "|"
 subtitle                 : "Your cloud journey partner"
 name                     : "Umplify Technologies Inc."
-description              : "We are a team of senior software developers and architects expert in Microsoft Azure Cloud solution and .NET. We engage with your company to deliver cloud application tailored to your business needs by employing Microsoft's cutting-edge tehnologies."
+description              : "We are a team of senior software developers and architects expert in Microsoft Azure Cloud solution, AWS, Google Cloud Platform, and .NET. We engage with your company to deliver cloud application tailored to your business needs by employing Microsoft's cutting-edge tehnologies."
 url                      : "https://umplify.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Umplify/umplify"

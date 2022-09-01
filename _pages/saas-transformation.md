@@ -5,15 +5,13 @@ layout: splash
 permalink: /cloud-solutions/saas-transformation/
 
 feature_row_left:
-  - image_path: /assets/images/splash/404.svg
+  - image_path: /assets/images/splash/transform.svg
+    title: SaaS Transformation
+    excerpt: Startups, Independent Software Vendors, and large enterprises are employing cloud infrastructure to make their products available 24/7, fault-tolerant, secure, and scalable as their businesses grow. This technological demand dictates modernizing applications' architecture to adapt models like Platform-as-a-Service (Paas), Software-as-a-Service (SaaS), or Infrastructure-as-a-Service (IaaS). With the evolving cloud technologies, our team has enough expertise to seamlessly steer your business through all possible challenges. Should you wish to transform your SaaS application to Azure Cloud, our team is ready to help you to implement a solid strategy for a successful SaaS transformation.
 ---
 
 {% include feature_row id="feature_row_left" type="left" %}
 
-
-# SaaS Transformation
-
-Should you wish to transform your SaaS application to Azure Cloud, our team is ready to help you to implement a solid strategy for a successful SaaS transformation.
 
 ## Assessment
 

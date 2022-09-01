@@ -4,16 +4,16 @@ sitemap: false
 permalink: /about/
 
 feature_row_left:
-  - image_path: /assets/images/splash/404.svg
-    title: About Umplify
-    excerpt: We deliver future-proof cloud-first software solutions. We are your partner for success, productivity and excellence
+  - image_path: /assets/images/splash/cloudenrollment.svg
+    title: Umplify Inc.
+    excerpt: Umplify Inc. delivers future-proof cloud-first software solutions and is your partner for success, productivity and excellence.
 ---
 
 {% include feature_row id="feature_row_left" type="left" %}
 
 ## Your right partner in the cloud journey
 
-We at Umplify offer comprehensive cloud-first software engineering and consulting services by focusing on innovation, agile methodology, DevOps, software automation, and CI/CD that help you expand your cloud presence efficiently. Our unparalleled software developers and architects and their proven approach to solving problems lead to modern and future-proof cloud solutions. Commitment to our clients' success is our number one priority, and it makes us your reliable technology partner at every step along your software development progress.
+We at Umplify Inc. offer comprehensive cloud-first software engineering and consulting services by focusing on innovation, agile methodology, DevOps, software automation, and CI/CD that help you expand your cloud presence efficiently. Our unparalleled software developers and architects and their proven approach to solving problems lead to modern and future-proof cloud solutions. Commitment to our clients' success is our number one priority, and it makes us your reliable technology partner at every step along your software development progress.
 
 ## What differentiates us
 
