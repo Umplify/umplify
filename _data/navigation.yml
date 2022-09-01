@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Cloud Solutions"
+    url: /cloud-solutions/
+  - title: "About"
+    url: /about/
+  - title: "Contact Us"
+    url: /contact/  
