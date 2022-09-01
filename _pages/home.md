@@ -73,12 +73,9 @@ feature_row_left1:
 
 Our partnership with companies, including startups and enterprises, has led to the launch of many successful world-class cloud applications. With our Research & Development (R&D) background, We have worked with those organizations to design, build and deliver modern, innovative, and cloud-first applications that operate at scale. We are your forward-thinking and reliable partner in your cloud journey. 
 
+---
+
 {: .text-center}
 
 
-![](../assets/images/technologies2.png){: .align-center}
-
-## Keep up your modern .NET coding pattern
-{: .text-center}
-Digital Silo's base grain processor supports modern coding patterns, and developers can use Microsoft's dependency injection container to develop their grains' processors and inject dependencies.
-{: .text-center}
+![](../assets/images/splash/umplifytechs.png){: .align-center}
