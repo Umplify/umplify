@@ -3,7 +3,7 @@ title: "Contact Umplify"
 layout: single
 permalink: /contact/
 author_profile: false
-excerpt: "Contact Umplify to discuss AI transformation consulting, agentic workflows, enterprise AI integration, and cloud platform engineering."
+excerpt: "Contact Umplify in Toronto about AI transformation consulting, agentic workflows, enterprise AI integration, and cloud platform engineering across the Greater Toronto Area and Canada."
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.18"

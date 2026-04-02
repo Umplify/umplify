@@ -13,9 +13,9 @@ header:
   actions:
     - label: "Contact Umplify"
       url: "/contact/"
-excerpt: "AI transformation consulting for businesses that need agentic workflows, enterprise AI integration, MCP-oriented architecture, and production-grade delivery."
+excerpt: "AI transformation consulting in Toronto, the Greater Toronto Area, and Canada for businesses that need agentic workflows, enterprise AI integration, MCP-oriented architecture, and production-grade delivery."
 intro:
-  - excerpt: "Umplify helps organizations move beyond AI experimentation into secure, production-grade implementation. We design AI-ready systems, agentic workflows, and enterprise integrations that connect business processes, data, and tools to modern AI capabilities."
+  - excerpt: "Umplify helps organizations in Toronto, the Greater Toronto Area, and across Canada move beyond AI experimentation into secure, production-grade implementation. We design AI-ready systems, agentic workflows, and enterprise integrations that connect business processes, data, and tools to modern AI capabilities."
 feature_row:
   - image_path: /assets/images/splash/solutions.svg
     title: "AI readiness assessment"
@@ -52,7 +52,7 @@ feature_row_right1:
 
 ## Who this is for
 
-Umplify works best with software-led businesses, startups, and enterprise teams that want to modernize how work gets done. Whether you are building internal assistants, operational AI workflows, or AI-enabled products, we help you create the technical foundation and implementation path to move forward with confidence.
+Umplify works best with software-led businesses, startups, and enterprise teams in Toronto, the Greater Toronto Area, and across Canada that want to modernize how work gets done. Whether you are building internal assistants, operational AI workflows, or AI-enabled products, we help you create the technical foundation and implementation path to move forward with confidence.
 
 ## Related pages
 

@@ -5,26 +5,21 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Umplify | AI Transformation, Agentic Workflows and Cloud Platform Engineering"
+title                    : "Umplify | AI Transformation Consulting in Toronto and Canada"
 title_separator          : "|"
-subtitle                 : "Helping businesses become AI-ready"
+subtitle                 : "AI-ready systems, agentic workflows, and cloud platform engineering"
 name                     : "Umplify Technologies Inc."
-description              : "Umplify helps businesses become AI-ready through AI transformation consulting, agentic workflows, MCP-oriented integration, enterprise AI implementation, and cloud platform engineering on Azure."
+description              : "Umplify helps businesses in the Greater Toronto Area and across Canada become AI-ready through AI transformation consulting, agentic workflows, enterprise AI integration, MCP-oriented architecture, and cloud platform engineering on Azure."
 url                      : "https://umplify.com"
 baseurl                  :
 repository               : "Umplify/umplify"
-teaser                   :
+teaser                   : "/assets/images/revamp/hero-ai.svg"
 logo                     :
 masthead_title           : Umplify
 breadcrumbs              : true
@@ -86,7 +81,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/splash/splashhomepage.jpg"
+og_image                 : "/assets/images/revamp/hero-ai.svg"
 social:
   type                   : Organization
   name                   : Umplify Technologies Inc.
@@ -122,7 +117,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
 
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -159,14 +153,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -177,18 +169,15 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
 
-# Outputting
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
 timezone:
 
-# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

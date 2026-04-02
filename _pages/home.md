@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "AI Transformation Consulting and Cloud Platform Engineering"
+title: "AI Transformation Consulting in Toronto and Canada"
 author_profile: false
 layout: splash
 classes:
@@ -15,9 +15,9 @@ header:
       url: "/ai-transformation/"
     - label: "Contact Umplify"
       url: "/contact/"
-excerpt: "Umplify helps businesses become AI-ready through AI transformation consulting, agentic workflows, MCP-oriented integration, and cloud platform engineering."
+excerpt: "Umplify helps businesses in the Greater Toronto Area and across Canada become AI-ready through AI transformation consulting, agentic workflows, MCP-oriented integration, and cloud platform engineering."
 intro:
-  - excerpt: "Umplify helps organizations move from AI experimentation to production-ready execution. We design AI-ready systems, agentic workflows, enterprise integrations, and cloud platforms that support secure adoption at scale."
+  - excerpt: "Umplify helps organizations in Toronto, the Greater Toronto Area, and across Canada move from AI experimentation to production-ready execution. We design AI-ready systems, agentic workflows, enterprise integrations, and cloud platforms that support secure adoption at scale."
 feature_row:
   - image_path: /assets/images/splash/solutions.svg
     title: "AI Transformation"
@@ -62,7 +62,7 @@ feature_row_left1:
 
 ## AI-ready systems for real operational leverage
 
-Umplify helps companies modernize systems for AI, connect internal tools and knowledge to modern models, and implement workflows that improve how work gets done. Our work spans **AI transformation consulting**, **agentic workflow design**, **MCP-oriented integration**, **enterprise AI implementation**, and **cloud platform engineering**.
+Umplify helps companies in **Toronto**, the **Greater Toronto Area**, and across **Canada** modernize systems for AI, connect internal tools and knowledge to modern models, and implement workflows that improve how work gets done. Our work spans **AI transformation consulting**, **agentic workflow design**, **MCP-oriented integration**, **enterprise AI implementation**, and **cloud platform engineering**.
 
 ## Core outcomes
 

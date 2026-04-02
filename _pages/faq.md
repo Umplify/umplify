@@ -3,7 +3,7 @@ title: "AI Transformation FAQ"
 permalink: /faq/
 layout: single
 author_profile: false
-excerpt: "Frequently asked questions about AI transformation consulting, agentic workflows, enterprise AI integration, and cloud platform engineering."
+excerpt: "Frequently asked questions about AI transformation consulting, agentic workflows, enterprise AI integration, and cloud platform engineering in Toronto and Canada."
 header:
   overlay_color: "#0B1F3F"
   overlay_filter: "0.16"
@@ -30,7 +30,7 @@ Cloud platform engineering remains essential because AI initiatives still depend
 
 ### What kinds of companies does Umplify help?
 
-Umplify is best suited to software-led businesses, startups, and enterprise teams that need AI transformation consulting, application modernization, systems integration, or platform engineering support.
+Umplify is best suited to software-led businesses, startups, and enterprise teams in Toronto, the Greater Toronto Area, and across Canada that need AI transformation consulting, application modernization, systems integration, or platform engineering support.
 
 ### Which page should I read next?
 
