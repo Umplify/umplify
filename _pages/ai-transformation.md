@@ -11,7 +11,7 @@ header:
   overlay_filter: "0.18"
   overlay_image: /assets/images/revamp/hero-ai.svg
   actions:
-    - label: "Contact Umplify"
+    - label: "Book a Discovery Call"
       url: "/contact/"
 excerpt: "AI transformation consulting in Toronto, the Greater Toronto Area, and Canada for businesses that need agentic workflows, enterprise AI integration, MCP-oriented architecture, and production-grade delivery."
 intro:
@@ -19,7 +19,7 @@ intro:
 feature_row:
   - image_path: /assets/images/splash/solutions.svg
     title: "AI readiness assessment"
-    excerpt: "Assess workflows, systems, APIs, knowledge sources, permissions, and governance to identify where AI can create measurable operational leverage."
+    excerpt: "Assess workflows, systems, APIs, knowledge sources, permissions, governance, and rollout constraints to identify where AI can create measurable operational leverage."
   - image_path: /assets/images/splash/event-driven.svg
     title: "Agentic workflow design"
     excerpt: "Redesign workflows so AI can retrieve context, coordinate tasks, recommend actions, and work with human approval where needed."
@@ -50,9 +50,22 @@ feature_row_right1:
 - governance, evaluation, observability, and rollout planning
 - platform engineering support for production deployment
 
+## Typical engagement starting points
+
+Most organizations begin with one of these:
+
+- an AI readiness assessment
+- a workflow discovery session
+- an architecture review for internal systems and integrations
+- a scoped implementation plan for a specific business use case
+
 ## Who this is for
 
 Umplify works best with software-led businesses, startups, and enterprise teams in Toronto, the Greater Toronto Area, and across Canada that want to modernize how work gets done. Whether you are building internal assistants, operational AI workflows, or AI-enabled products, we help you create the technical foundation and implementation path to move forward with confidence.
+
+## Next step
+
+[Talk to Umplify about AI transformation](/contact/){: .btn .btn--primary}
 
 ## Related pages
 

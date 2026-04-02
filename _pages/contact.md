@@ -28,6 +28,10 @@ Support email: [support@umplify.com](mailto:support@umplify.com)
 
 Business hours *(Toronto, ON)*: 8:30 AM - 5:00 PM (EST)
 
+## What to include in your message
+
+A strong starting message usually includes your business context, the systems involved, the workflows you want to improve, and whether you are exploring strategy, implementation, or both.
+
 ## Helpful pages
 
 - [AI Transformation](/ai-transformation/)

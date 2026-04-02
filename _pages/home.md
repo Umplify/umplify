@@ -13,7 +13,7 @@ header:
   actions:
     - label: "Explore AI Transformation"
       url: "/ai-transformation/"
-    - label: "Contact Umplify"
+    - label: "Book a Discovery Call"
       url: "/contact/"
 excerpt: "Umplify helps businesses in the Greater Toronto Area and across Canada become AI-ready through AI transformation consulting, agentic workflows, MCP-oriented integration, and cloud platform engineering."
 intro:
@@ -37,7 +37,6 @@ feature_row:
     url: /cloud-solutions/
     btn_label: "Explore Platform Services"
     btn_class: "btn--primary"
-
 feature_row_right1:
   - image_path: /assets/images/revamp/diagram-agentic.svg
     title: "What Umplify delivers"
@@ -45,7 +44,6 @@ feature_row_right1:
     url: /about/
     btn_label: "Why Umplify"
     btn_class: "btn--primary"
-
 feature_row_left1:
   - image_path: /assets/images/revamp/diagram-mcp.svg
     title: "Why the market is changing"
@@ -70,6 +68,16 @@ Umplify helps companies in **Toronto**, the **Greater Toronto Area**, and across
 - less manual coordination in operational workflows
 - clearer governance and safer rollout for enterprise AI
 - stronger architecture for AI-enabled products and internal assistants
+
+## Ideal fit
+
+Umplify is best suited to software-led businesses, startups, and enterprise teams that already have valuable systems, data, and workflows but need a practical path to AI adoption and production execution.
+
+## Start with the right conversation
+
+The strongest first step is usually an **AI readiness discussion**, an **agentic workflow discovery conversation**, or a **platform architecture review**.
+
+[Book a discovery call](/contact/){: .btn .btn--primary}
 
 ## Explore the site
 

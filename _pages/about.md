@@ -28,6 +28,10 @@ Umplify is best suited to software-led businesses, startups, and enterprise team
 
 Some of the organizations whose development teams we have engaged with include TC Media, Royal and Sun Alliance Insurance Company of Canada (RSA), GuestLogix Inc., Munich Re Insurance, Comsense, and Manulife Insurance.
 
+## What an initial conversation looks like
+
+An initial discussion is usually focused on business goals, workflow bottlenecks, system readiness, internal tools, data access, and what would make an AI initiative or modernization effort commercially worthwhile.
+
 ## Explore related pages
 
 - [AI Transformation](/ai-transformation/)
