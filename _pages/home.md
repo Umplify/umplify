@@ -1,81 +1,80 @@
 ---
 permalink: /
-title: "Cloud-Native Solutions."
+title: "AI Transformation Consulting and Cloud Platform Engineering"
 author_profile: false
 layout: splash
 classes:
-    - landing
-    - wide
+  - landing
+  - wide
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.125"
-  overlay_image: /assets/images/splash/splashhomepage.jpg
+  overlay_color: "#08142C"
+  overlay_filter: "0.18"
+  overlay_image: /assets/images/revamp/hero-ai.svg
   actions:
-    - label: "Getting started"
-      url: "/start"
-excerpt: "A team of senior software developers and architects ready to deliver cloud-native applications." 
+    - label: "Explore AI Transformation"
+      url: "/ai-transformation/"
+    - label: "Contact Umplify"
+      url: "/contact/"
+excerpt: "Umplify helps businesses become AI-ready through AI transformation consulting, agentic workflows, MCP-oriented integration, and cloud platform engineering."
 intro:
-  - excerpt: We are expert in the Microsoft Azure Cloud technology and harness its powerful platform to transform your business with cloud-native application modernization.
+  - excerpt: "Umplify helps organizations move from AI experimentation to production-ready execution. We design AI-ready systems, agentic workflows, enterprise integrations, and cloud platforms that support secure adoption at scale."
 feature_row:
-  - image_path: /assets/images/splash/developer.svg
-    title: 1. Develop the grains
-    excerpt: Download our free **.NET SDK** to implement your business logic tasks aka grains.
-    ## url: "#test-link"
-    ## btn_label: "Read More"
-    ## btn_class: "btn--secondar"
-  - image_path: /assets/images/splash/deploy.svg
-    title: 2. Provision the Silo
-    excerpt: Download and run the build pipeline to deploy Digital Silo to your Azure subscription. **You need to do it only once!**
-    # url: "#test-link"
-    # btn_label: "Read More"
-    # btn_class: "btn--secondar"
-  - image_path: /assets/images/splash/launch.svg
-    title: 3. Deploy the grains
-    excerpt: Upload your implemented .NET grains to your Digital Silo's provisioned Azure storage.
-    # url: "#test-link"
-    # btn_label: "Read More"
-    # btn_class: "btn--secondar"   
+  - image_path: /assets/images/splash/solutions.svg
+    title: "AI Transformation"
+    excerpt: "Identify the highest-value AI opportunities, design the right operating model, and build the technical foundation required for production adoption."
+    url: /ai-transformation/
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/splash/event-driven.svg
+    title: "Agentic Workflows"
+    excerpt: "Redesign workflows so AI can retrieve context, coordinate tasks, support decisions, and interact with business systems safely."
+    url: /ai-transformation/
+    btn_label: "See Capabilities"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/splash/iaac.svg
+    title: "Cloud Platform Engineering"
+    excerpt: "Build the Azure, API, DevOps, and platform architecture needed to make AI systems reliable, observable, and scalable."
+    url: /cloud-solutions/
+    btn_label: "Explore Platform Services"
+    btn_class: "btn--primary"
 
 feature_row_right1:
-  - image_path: /assets/images/cloud.svg
-    title: "Our mission: Cloud First"
-    excerpt: Our partnership with your company leads to deliver innovative cloud solutions in every stage of your application's lifecycle. We adapt Agile methodology through the collaborative effort to ensure the seamless delivery of your product at scale. 
-    url: our-mission
-    btn_label: "Read More"
+  - image_path: /assets/images/revamp/diagram-agentic.svg
+    title: "What Umplify delivers"
+    excerpt: "We help software-led businesses and enterprise teams connect strategy to implementation through AI readiness work, enterprise integration, application modernization, and platform engineering."
+    url: /about/
+    btn_label: "Why Umplify"
     btn_class: "btn--primary"
 
 feature_row_left1:
-  - image_path: /assets/images/flexibility_software.svg
-    title: What we offer
-    excerpt: We offer world-class reliable cloud solutions tailored to your needs which scale as your business grows. We transform your products to improve their reliability, security, availability, and scalability. Our application architects will help you audit your existing applications and choose the best approach for cloud migration so that you can unlock the power of cloud-native application development.
-    url: what-umplify-offers
-    btn_label: "Read More"
-    btn_class: "btn--primary"  
-   
- 
-  
-# feature_row_techs:
-#   - image_path: assets/images/splash/azure100x100.png
-#   - image_path: assets/images/splash/NET_logo.png
-#   - image_path: /assets/images/splash/angular100.png
-#   - image_path: assets/images/splash/ts-logo-100.png
-#   - image_path: assets/images/splash/terraform_logo.png
-       
+  - image_path: /assets/images/revamp/diagram-mcp.svg
+    title: "Why the market is changing"
+    excerpt: "Businesses now need more than chatbot demos. They need AI-ready systems, connected tools, governed execution, private knowledge access, and a platform that supports long-term adoption."
+    url: /faq/
+    btn_label: "Read the FAQ"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
+{% include feature_row id="feature_row" %}
 {% include feature_row id="feature_row_right1" type="right" %}
 {% include feature_row id="feature_row_left1" type="left" %}
 
+## AI-ready systems for real operational leverage
 
-# Your forward-thinking cloud journey partner
-{: .text-center}
+Umplify helps companies modernize systems for AI, connect internal tools and knowledge to modern models, and implement workflows that improve how work gets done. Our work spans **AI transformation consulting**, **agentic workflow design**, **MCP-oriented integration**, **enterprise AI implementation**, and **cloud platform engineering**.
 
-Our partnership with companies, including startups and enterprises, has led to the launch of many successful world-class cloud applications. With our Research & Development (R&D) background, We have worked with those organizations to design, build and deliver modern, innovative, and cloud-first applications that operate at scale. We are your forward-thinking and reliable partner in your cloud journey. 
+## Core outcomes
 
----
+- better use of internal knowledge, tools, and systems
+- less manual coordination in operational workflows
+- clearer governance and safer rollout for enterprise AI
+- stronger architecture for AI-enabled products and internal assistants
 
-{: .text-center}
+## Explore the site
 
-
-![](../assets/images/splash/umplifytechs.png){: .align-center}
+- [AI Transformation](/ai-transformation/)
+- [Cloud Platform Engineering](/cloud-solutions/)
+- [About Umplify](/about/)
+- [Frequently Asked Questions](/faq/)
+- [Contact Umplify](/contact/)

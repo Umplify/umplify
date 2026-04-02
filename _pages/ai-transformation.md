@@ -1,5 +1,5 @@
 ---
-title: "AI Transformation"
+title: "AI Transformation Consulting"
 permalink: /ai-transformation/
 layout: splash
 author_profile: false
@@ -7,33 +7,33 @@ classes:
   - landing
   - wide
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.2"
-  overlay_image: /assets/images/splash/splashhomepage.jpg
+  overlay_color: "#08142C"
+  overlay_filter: "0.18"
+  overlay_image: /assets/images/revamp/hero-ai.svg
   actions:
-    - label: "Book a discovery call"
+    - label: "Contact Umplify"
       url: "/contact/"
-excerpt: "Make your business AI-ready with agentic workflows, MCP-oriented integrations, and production-grade implementation."
+excerpt: "AI transformation consulting for businesses that need agentic workflows, enterprise AI integration, MCP-oriented architecture, and production-grade delivery."
 intro:
   - excerpt: "Umplify helps organizations move beyond AI experimentation into secure, production-grade implementation. We design AI-ready systems, agentic workflows, and enterprise integrations that connect business processes, data, and tools to modern AI capabilities."
 feature_row:
   - image_path: /assets/images/splash/solutions.svg
-    title: "AI Readiness Assessment"
-    excerpt: "Assess workflows, systems, APIs, knowledge sources, permissions, and governance to identify where AI can create measurable leverage."
+    title: "AI readiness assessment"
+    excerpt: "Assess workflows, systems, APIs, knowledge sources, permissions, and governance to identify where AI can create measurable operational leverage."
   - image_path: /assets/images/splash/event-driven.svg
-    title: "Agentic Workflow Design"
-    excerpt: "Redesign operational workflows so AI can retrieve context, coordinate tasks, recommend actions, and work with human approval where needed."
+    title: "Agentic workflow design"
+    excerpt: "Redesign workflows so AI can retrieve context, coordinate tasks, recommend actions, and work with human approval where needed."
   - image_path: /assets/images/splash/iaac.svg
-    title: "MCP and Enterprise Integration"
-    excerpt: "Prepare internal platforms, tools, and actions for modern AI interoperability using secure integration patterns and MCP-oriented architecture."
+    title: "MCP-oriented integration"
+    excerpt: "Prepare internal platforms, tools, and actions for modern AI interoperability using secure integration patterns and a practical access model."
 feature_row_left1:
-  - image_path: /assets/images/cloud.svg
+  - image_path: /assets/images/revamp/diagram-agentic.svg
     title: "From pilots to production"
     excerpt: "We help your company turn promising AI ideas into real systems with governance, observability, reliability, and the cloud engineering foundation required to scale safely."
 feature_row_right1:
-  - image_path: /assets/images/splash/webapps.svg
+  - image_path: /assets/images/revamp/diagram-mcp.svg
     title: "Private knowledge and secure execution"
-    excerpt: "We build private knowledge access, retrieval workflows, and system integrations so AI can work with your internal business context without compromising security or control."
+    excerpt: "We build private knowledge access, retrieval workflows, and system integrations so AI can work with your internal business context without compromising control."
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -44,16 +44,18 @@ feature_row_right1:
 ## What we help you implement
 
 - AI readiness strategy and implementation roadmaps
-- Agentic workflow discovery and operating model design
-- MCP transformation for internal platforms and APIs
-- Enterprise AI integrations across business systems and tools
-- Private retrieval and knowledge access for internal teams
-- Governance, evaluation, observability, and rollout planning
+- agentic workflow discovery and operating model design
+- enterprise AI integration across business systems and tools
+- private retrieval and knowledge access for internal teams
+- governance, evaluation, observability, and rollout planning
+- platform engineering support for production deployment
 
 ## Who this is for
 
 Umplify works best with software-led businesses, startups, and enterprise teams that want to modernize how work gets done. Whether you are building internal assistants, operational AI workflows, or AI-enabled products, we help you create the technical foundation and implementation path to move forward with confidence.
 
-## Why Umplify
+## Related pages
 
-Our advantage is not just that we understand AI. It is that we combine AI integration strategy with senior cloud architecture, application modernization, Azure engineering, DevOps, and secure delivery practices. That means your AI initiatives are designed to work in production, not only in demos.
+- [Cloud Platform Engineering](/cloud-solutions/)
+- [Frequently Asked Questions](/faq/)
+- [Contact Umplify](/contact/)
