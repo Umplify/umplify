@@ -1,26 +1,36 @@
 ---
-title: "About"
-sitemap: false
+title: "About Umplify"
 permalink: /about/
-
-feature_row_left:
-  - image_path: /assets/images/splash/cloudenrollment.svg
-    title: Umplify Inc.
-    excerpt: Umplify Inc. is a Canadian private company headquartered in Toronto, ON. It delivers future-proof cloud-first software solutions and is your partner for success, productivity and excellence.
+layout: single
+author_profile: false
+excerpt: "Learn about Umplify, an AI transformation and cloud platform engineering partner based in Toronto."
+header:
+  overlay_color: "#0B1F3F"
+  overlay_filter: "0.2"
+  overlay_image: /assets/images/revamp/hero-cloud.svg
 ---
 
-{% include feature_row id="feature_row_left" type="left" %}
+![Cloud platform engineering visual](/assets/images/revamp/hero-cloud.svg)
 
-## Your right partner in the cloud journey
+## About Umplify
 
-We at Umplify Inc. offer comprehensive cloud-first software engineering and consulting services by focusing on innovation, agile methodology, DevOps, software automation, and CI/CD that help you expand your cloud presence efficiently. Our unparalleled software developers and architects and their proven approach to solving problems lead to modern and future-proof cloud solutions. Commitment to our clients' success is our number one priority, and it makes us your reliable technology partner at every step along your software development progress.
+Umplify is a Toronto-based technology company focused on **AI transformation consulting**, **agentic workflows**, **enterprise AI integration**, and **cloud platform engineering**. We help businesses become AI-ready by connecting strategy, architecture, and implementation.
 
-## What differentiates us
+## What makes Umplify different
 
-No matter how sophisticated your application is, our real-world-experienced senior software engineers approach your assignment with the utmost professionalism. You will find our team a truly-dependable partner in every stage of your application's lifecycle, taking ownership of every challenge with passion and care.
+We combine senior engineering depth with practical business execution. Our work often spans Azure architecture, API and systems integration, application modernization, DevOps, private knowledge access, and the delivery foundations required for secure AI adoption.
 
-By leveraging the Agile methodology, open communication, and utilizing DevOps, we iterate quickly, deliver faster automatically, and keep a finger on the pulse of technology.
+## Who we help
 
-We never settle for short-term solutions. We push ourselves to our limits to deliver your company a world-class cloud solution to count on as a long-term sustainable investment.
+Umplify is best suited to software-led businesses, startups, and enterprise teams that need to modernize internal systems, improve operational workflows, or launch AI-enabled capabilities with stronger technical foundations.
 
-Some of our clients that we engaged with their development teams are TC Media, Royal and Sun Alliance Insurance Company of Canada (RSA), GuestLogix Inc, MunichRE Insurance, Comsense, Manulife Insurance.
+## Selected client experience
+
+Some of the organizations whose development teams we have engaged with include TC Media, Royal and Sun Alliance Insurance Company of Canada (RSA), GuestLogix Inc., Munich Re Insurance, Comsense, and Manulife Insurance.
+
+## Explore related pages
+
+- [AI Transformation](/ai-transformation/)
+- [Cloud Platform Engineering](/cloud-solutions/)
+- [Frequently Asked Questions](/faq/)
+- [Contact Umplify](/contact/)
