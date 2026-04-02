@@ -1,0 +1,52 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FAFF"/>
+      <stop offset="1" stop-color="#E7F2FF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F2F8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+  <rect x="430" y="230" width="340" height="180" rx="28" fill="#0F4F93"/>
+  <rect x="430" y="230" width="340" height="180" rx="28" stroke="#8BCBFF" stroke-width="3"/>
+  <text x="600" y="290" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Agentic Core</text>
+  <text x="600" y="332" text-anchor="middle" fill="#CFEAFF" font-family="Arial, Helvetica, sans-serif" font-size="20">Reason • Retrieve • Decide • Act</text>
+
+  <g>
+    <rect x="92" y="115" width="220" height="118" rx="22" fill="url(#card)" stroke="#B4D9FF" stroke-width="2"/>
+    <text x="202" y="165" text-anchor="middle" fill="#134C88" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Knowledge</text>
+    <text x="202" y="198" text-anchor="middle" fill="#356CA4" font-family="Arial, Helvetica, sans-serif" font-size="18">Docs • Policies • Data</text>
+  </g>
+  <g>
+    <rect x="888" y="115" width="220" height="118" rx="22" fill="url(#card)" stroke="#B4D9FF" stroke-width="2"/>
+    <text x="998" y="165" text-anchor="middle" fill="#134C88" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Systems</text>
+    <text x="998" y="198" text-anchor="middle" fill="#356CA4" font-family="Arial, Helvetica, sans-serif" font-size="18">CRM • ERP • APIs • Tools</text>
+  </g>
+  <g>
+    <rect x="92" y="468" width="220" height="118" rx="22" fill="url(#card)" stroke="#B4D9FF" stroke-width="2"/>
+    <text x="202" y="518" text-anchor="middle" fill="#134C88" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">People</text>
+    <text x="202" y="551" text-anchor="middle" fill="#356CA4" font-family="Arial, Helvetica, sans-serif" font-size="18">Approvals • Review • Trust</text>
+  </g>
+  <g>
+    <rect x="888" y="468" width="220" height="118" rx="22" fill="url(#card)" stroke="#B4D9FF" stroke-width="2"/>
+    <text x="998" y="518" text-anchor="middle" fill="#134C88" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Actions</text>
+    <text x="998" y="551" text-anchor="middle" fill="#356CA4" font-family="Arial, Helvetica, sans-serif" font-size="18">Tickets • Messages • Updates</text>
+  </g>
+  <g stroke="#5DAAF0" stroke-width="4" stroke-linecap="round">
+    <path d="M312 174H402"/>
+    <path d="M798 174H888"/>
+    <path d="M312 527H402"/>
+    <path d="M798 527H888"/>
+    <path d="M202 233V410C202 430 218 446 238 446H430"/>
+    <path d="M998 233V410C998 430 982 446 962 446H770"/>
+  </g>
+  <g fill="#5DAAF0">
+    <circle cx="402" cy="174" r="7"/>
+    <circle cx="798" cy="174" r="7"/>
+    <circle cx="402" cy="527" r="7"/>
+    <circle cx="798" cy="527" r="7"/>
+  </g>
+</svg>
