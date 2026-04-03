@@ -8,10 +8,10 @@ excerpt: "Serverless and event-driven systems services in Toronto and Canada for
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/diagram-agentic.svg
+  overlay_image: /assets/images/revamp/serverless-event.svg
 ---
 
-![Serverless systems visual](/assets/images/revamp/diagram-agentic.svg)
+![Serverless systems visual](/assets/images/revamp/serverless-event.svg)
 
 ## Serverless and event-driven systems services
 

@@ -8,10 +8,10 @@ excerpt: "SaaS and platform architecture services in Toronto and Canada for prod
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/hero-cloud.svg
+  overlay_image: /assets/images/revamp/platform-architecture.svg
 ---
 
-![Platform architecture visual](/assets/images/revamp/hero-cloud.svg)
+![Platform architecture visual](/assets/images/revamp/platform-architecture.svg)
 
 ## SaaS and platform architecture services
 

@@ -8,10 +8,10 @@ excerpt: "Platform foundation services in Toronto and Canada for enterprise AI i
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/diagram-mcp.svg
+  overlay_image: /assets/images/revamp/ai-platform-foundation.svg
 ---
 
-![Platform foundations visual](/assets/images/revamp/diagram-mcp.svg)
+![Platform foundations visual](/assets/images/revamp/ai-platform-foundation.svg)
 
 ## Platform foundations for AI integration
 

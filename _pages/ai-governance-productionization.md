@@ -8,10 +8,10 @@ excerpt: "AI governance and productionization services in Toronto and Canada for
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/diagram-mcp.svg
+  overlay_image: /assets/images/revamp/governance-controls.svg
 ---
 
-![AI governance visual](/assets/images/revamp/diagram-mcp.svg)
+![AI governance visual](/assets/images/revamp/governance-controls.svg)
 
 ## AI governance and productionization
 
@@ -29,6 +29,6 @@ Umplify helps teams define the structures that make AI deployable in practice. T
 
 ## Related pages
 
-- [AI Transformation Consulting Services](/ai-transformation/)
+- [AI Transformation Services](/ai-transformation/)
 - [Private Knowledge and Secure Execution](/private-knowledge-secure-execution/)
 - [Contact Umplify](/contact/)

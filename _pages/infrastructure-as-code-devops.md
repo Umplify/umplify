@@ -8,10 +8,10 @@ excerpt: "Infrastructure as Code and DevOps services in Toronto and Canada for t
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/diagram-mcp.svg
+  overlay_image: /assets/images/revamp/devops-pipeline.svg
 ---
 
-![DevOps visual](/assets/images/revamp/diagram-mcp.svg)
+![DevOps visual](/assets/images/revamp/devops-pipeline.svg)
 
 ## Infrastructure as Code and DevOps services
 

@@ -8,10 +8,10 @@ excerpt: "Cloud modernization services in Toronto and Canada for businesses that
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/hero-cloud.svg
+  overlay_image: /assets/images/revamp/cloud-modernization.svg
 ---
 
-![Cloud modernization visual](/assets/images/revamp/hero-cloud.svg)
+![Cloud modernization visual](/assets/images/revamp/cloud-modernization.svg)
 
 ## Cloud modernization services
 

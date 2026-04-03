@@ -8,10 +8,10 @@ excerpt: "Enterprise AI integration services in Toronto and Canada for businesse
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/diagram-mcp.svg
+  overlay_image: /assets/images/revamp/integration-blueprint.svg
 ---
 
-![Enterprise integration visual](/assets/images/revamp/diagram-mcp.svg)
+![Enterprise integration visual](/assets/images/revamp/integration-blueprint.svg)
 
 ## Enterprise AI integration services
 

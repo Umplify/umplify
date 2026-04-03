@@ -8,10 +8,10 @@ excerpt: "Private knowledge and secure execution services in Toronto and Canada 
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/diagram-agentic.svg
+  overlay_image: /assets/images/revamp/secure-knowledge.svg
 ---
 
-![Private knowledge visual](/assets/images/revamp/diagram-agentic.svg)
+![Private knowledge visual](/assets/images/revamp/secure-knowledge.svg)
 
 ## Private knowledge and secure execution
 

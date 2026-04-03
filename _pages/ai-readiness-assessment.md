@@ -8,10 +8,10 @@ excerpt: "AI readiness assessment services in Toronto and Canada to identify pri
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/hero-ai.svg
+  overlay_image: /assets/images/revamp/ai-readiness.svg
 ---
 
-![AI transformation visual](/assets/images/revamp/hero-ai.svg)
+![AI readiness visual](/assets/images/revamp/ai-readiness.svg)
 
 ## AI readiness assessment services
 
@@ -33,6 +33,6 @@ Teams typically leave this phase with a clearer use-case shortlist, a better und
 
 ## Related pages
 
-- [AI Transformation Consulting Services](/ai-transformation/)
+- [AI Transformation Services](/ai-transformation/)
 - [Agentic Workflow Design](/agentic-workflow-design/)
 - [Contact Umplify](/contact/)

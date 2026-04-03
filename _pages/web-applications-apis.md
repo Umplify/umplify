@@ -8,10 +8,10 @@ excerpt: "Web applications and API modernization services in Toronto and Canada 
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/hero-cloud.svg
+  overlay_image: /assets/images/revamp/web-api-modernization.svg
 ---
 
-![Web applications and APIs visual](/assets/images/revamp/hero-cloud.svg)
+![Web applications and APIs visual](/assets/images/revamp/web-api-modernization.svg)
 
 ## Web applications and API modernization services
 

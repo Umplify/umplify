@@ -8,10 +8,10 @@ excerpt: "Agentic workflow design services in Toronto and Canada for businesses 
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/diagram-agentic.svg
+  overlay_image: /assets/images/revamp/workflow-orchestration.svg
 ---
 
-![Agentic workflow visual](/assets/images/revamp/diagram-agentic.svg)
+![Agentic workflow visual](/assets/images/revamp/workflow-orchestration.svg)
 
 ## Agentic workflow design services
 
