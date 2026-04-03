@@ -74,7 +74,7 @@ feature_row_right3:
     excerpt: >-
       Enterprise AI needs a dependable runtime environment underneath it. We design the APIs, access layers, observability, and control patterns that help AI operate safely with real systems, data, and workflows.
 
-      This is where platform engineering starts becoming a direct enabler of AI execution rather than a separate technology conversation.
+      This is where platform engineering becomes a direct enabler of AI execution rather than a separate technology conversation.
     url: /platform-foundations-ai-integration/
     btn_label: "Read more..."
     btn_class: "btn--primary"

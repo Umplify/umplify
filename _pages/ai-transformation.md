@@ -1,5 +1,5 @@
 ---
-title: "AI Transformation Consulting Services"
+title: "AI Transformation Services"
 permalink: /ai-transformation/
 layout: splash
 author_profile: false
@@ -13,16 +13,16 @@ header:
   actions:
     - label: "Book a Discovery Call"
       url: "/contact/"
-excerpt: "AI transformation consulting services in Toronto, the Greater Toronto Area, and across Canada for businesses that need agentic workflows, enterprise AI integration, private knowledge systems, and production-grade delivery."
+excerpt: "AI transformation services in Toronto, the Greater Toronto Area, and across Canada for businesses that need agentic workflows, enterprise AI integration, private knowledge systems, and production-grade delivery."
 intro:
   - excerpt: "Umplify helps organizations move beyond generic AI experimentation into focused implementation with measurable business intent. We work across strategy, workflow design, knowledge access, systems integration, and platform engineering so AI becomes a real operating capability rather than a side initiative."
 feature_row:
   - image_path: /assets/images/splash/solutions.svg
     title: "AI readiness assessment"
     excerpt: >-
-      A serious AI program starts with clarity. We assess workflows, internal systems, access patterns, governance realities, and business constraints to identify where AI can create measurable leverage and where it will likely fail without deeper preparation.
+      Serious AI work starts with clarity. We assess workflows, internal systems, access patterns, governance realities, and business constraints to identify where AI can create measurable leverage and where it will fail without deeper preparation.
 
-      This gives leadership a sharper view of priority use cases, delivery risk, operating implications, and what the organization needs to change before scaling AI broadly.
+      This gives leadership a sharper view of priority use cases, delivery risk, operating implications, and what the organization needs to change before scaling AI more broadly.
     url: /ai-readiness-assessment/
     btn_label: "Read more..."
     btn_class: "btn--primary"
@@ -40,7 +40,7 @@ feature_row:
     excerpt: >-
       AI becomes materially more useful when it can interact with real business systems. We design integration patterns across APIs, internal platforms, tools, and access layers so AI can operate with the right context and within the right limits.
 
-      This includes practical architecture for secure system connectivity, structured context handling, and readiness for MCP-oriented approaches where relevant.
+      This includes practical architecture for secure system connectivity, structured context handling, and readiness for MCP-oriented approaches where they fit the problem.
     url: /enterprise-ai-integration/
     btn_label: "Read more..."
     btn_class: "btn--primary"
