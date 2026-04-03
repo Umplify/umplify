@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "Agentic workflow design services in Toronto and Canada for businesses that want AI to retrieve context, coordinate tasks, support decisions, and participate in execution."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/workflow-orchestration.svg
+  overlay_filter: "0.22"
+  overlay_image: /assets/images/revamp/hero-ai.svg
 ---
 
 ![Agentic workflow visual](/assets/images/revamp/workflow-orchestration.svg)

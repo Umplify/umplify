@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "Web applications and API modernization services in Toronto and Canada for systems that need stronger performance, integration design, and readiness for AI-enabled workflows."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/web-api-modernization.svg
+  overlay_filter: "0.20"
+  overlay_image: /assets/images/revamp/hero-cloud.svg
 ---
 
 ![Web applications and APIs visual](/assets/images/revamp/web-api-modernization.svg)

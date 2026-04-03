@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "AI governance and productionization services in Toronto and Canada for teams that need rollout discipline, observability, evaluation, and operational control."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/governance-controls.svg
+  overlay_filter: "0.22"
+  overlay_image: /assets/images/revamp/hero-ai.svg
 ---
 
 ![AI governance visual](/assets/images/revamp/governance-controls.svg)

@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "Platform foundation services in Toronto and Canada for enterprise AI integration, runtime controls, APIs, observability, and AI-ready execution."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/ai-platform-foundation.svg
+  overlay_filter: "0.20"
+  overlay_image: /assets/images/revamp/hero-cloud.svg
 ---
 
 ![Platform foundations visual](/assets/images/revamp/ai-platform-foundation.svg)

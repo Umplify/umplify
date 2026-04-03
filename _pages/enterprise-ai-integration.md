@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "Enterprise AI integration services in Toronto and Canada for businesses that need AI to connect to internal tools, platforms, APIs, and structured context safely."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/integration-blueprint.svg
+  overlay_filter: "0.22"
+  overlay_image: /assets/images/revamp/hero-ai.svg
 ---
 
 ![Enterprise integration visual](/assets/images/revamp/integration-blueprint.svg)

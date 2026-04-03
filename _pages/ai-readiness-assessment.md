@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "AI readiness assessment services in Toronto and Canada to identify priority use cases, delivery risks, and the organizational foundations required for enterprise AI adoption."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/ai-readiness.svg
+  overlay_filter: "0.22"
+  overlay_image: /assets/images/revamp/hero-ai.svg
 ---
 
 ![AI readiness visual](/assets/images/revamp/ai-readiness.svg)

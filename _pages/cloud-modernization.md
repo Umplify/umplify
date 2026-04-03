@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "Cloud modernization services in Toronto and Canada for businesses that need stronger architecture, better resilience, and a clearer foundation for AI-ready systems."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/cloud-modernization.svg
+  overlay_filter: "0.20"
+  overlay_image: /assets/images/revamp/hero-cloud.svg
 ---
 
 ![Cloud modernization visual](/assets/images/revamp/cloud-modernization.svg)

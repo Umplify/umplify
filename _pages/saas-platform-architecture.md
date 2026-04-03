@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "SaaS and platform architecture services in Toronto and Canada for products that need stronger tenancy, extensibility, reliability, and operational scale."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/platform-architecture.svg
+  overlay_filter: "0.20"
+  overlay_image: /assets/images/revamp/hero-cloud.svg
 ---
 
 ![Platform architecture visual](/assets/images/revamp/platform-architecture.svg)

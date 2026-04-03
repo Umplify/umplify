@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "Infrastructure as Code and DevOps services in Toronto and Canada for teams that need stronger delivery discipline, safer releases, and better operational repeatability."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/devops-pipeline.svg
+  overlay_filter: "0.20"
+  overlay_image: /assets/images/revamp/hero-cloud.svg
 ---
 
 ![DevOps visual](/assets/images/revamp/devops-pipeline.svg)

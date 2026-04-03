@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "Serverless and event-driven systems services in Toronto and Canada for workloads that benefit from elasticity, clean integration, and lower operational drag."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.16"
-  overlay_image: /assets/images/revamp/serverless-event.svg
+  overlay_filter: "0.20"
+  overlay_image: /assets/images/revamp/hero-cloud.svg
 ---
 
 ![Serverless systems visual](/assets/images/revamp/serverless-event.svg)

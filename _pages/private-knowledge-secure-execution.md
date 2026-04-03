@@ -7,8 +7,8 @@ service_schema: true
 excerpt: "Private knowledge and secure execution services in Toronto and Canada for organizations that want AI to use internal context safely and effectively."
 header:
   overlay_color: "#08142C"
-  overlay_filter: "0.18"
-  overlay_image: /assets/images/revamp/secure-knowledge.svg
+  overlay_filter: "0.22"
+  overlay_image: /assets/images/revamp/hero-ai.svg
 ---
 
 ![Private knowledge visual](/assets/images/revamp/secure-knowledge.svg)
