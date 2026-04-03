@@ -13,9 +13,9 @@ minimal_mistakes_skin    : "default"
 locale                   : "en-US"
 title                    : "Umplify | AI Transformation Consulting in Toronto and Canada"
 title_separator          : "|"
-subtitle                 : "AI-ready systems, agentic workflows, and cloud platform engineering"
+subtitle                 : "AI-ready systems, agentic workflows, cloud platform engineering, and practical technology insight"
 name                     : "Umplify Technologies Inc."
-description              : "Umplify helps businesses in the Greater Toronto Area and across Canada become AI-ready through AI transformation consulting, agentic workflows, enterprise AI integration, MCP-oriented architecture, and cloud platform engineering on Azure."
+description              : "Umplify helps businesses in the Greater Toronto Area and across Canada become AI-ready through AI transformation consulting, agentic workflows, enterprise AI integration, MCP-oriented architecture, cloud platform engineering on Azure, and practical technology insight published through the Umplify blog."
 url                      : "https://umplify.com"
 baseurl                  :
 repository               : "Umplify/umplify"
@@ -67,14 +67,12 @@ google:
   search_engine_id       :
   instant_search         :
 
-# SEO Related
 google_site_verification :
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
-# Social Sharing
 twitter:
   username               :
 facebook:
@@ -89,14 +87,12 @@ social:
     - "https://umplify.com"
     - "https://github.com/Umplify/umplify"
 
-# Analytics
 analytics:
   provider               : false
   google:
     tracking_id          :
     anonymize_ip         :
 
-# Site Author
 author:
   name             : "Arash Sabet"
   avatar           : "https://avatars.githubusercontent.com/u/26050123?s=460&amp;u=ae2a53aa211d50cd0829f1235c54dd633ad3a8b5&amp;v=4"
@@ -111,7 +107,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
 
-# Site Footer
 footer:
   links:
     - label: "GitHub"
@@ -210,7 +205,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: false
       share: true

@@ -5,6 +5,8 @@ main:
     url: /ai-transformation/
   - title: "Cloud Platform Engineering"
     url: /cloud-solutions/
+  - title: "Blog"
+    url: /blog/
   - title: "FAQ"
     url: /faq/
   - title: "About"

@@ -78,4 +78,34 @@
 </script>
 {% endif %}
 
+{% if page.categories contains 'blog' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ seo_description | strip_html | strip_newlines | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "Arash Sabet"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Umplify Technologies Inc.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.og_image | absolute_url }}"
+    }
+  },
+  "image": "{{ absolute_seo_image }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+}
+</script>
+{% endif %}
+
 <!-- end custom head snippets -->
