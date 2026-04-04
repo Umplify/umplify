@@ -43,16 +43,6 @@ Some articles are strategic and leadership-facing. Others are more technical and
 - [Terraform, Bicep, and the case for delivery discipline](/blog/terraform-bicep-and-the-case-for-delivery-discipline/)
 - [Designing APIs that support AI and integration](/blog/designing-apis-that-support-ai-and-integration/)
 
-## Publishing cadence
-
-The blog structure now supports weekly, monthly, or periodic publishing. A practical cadence could look like this:
-
-- **Weekly:** one focused article on AI transformation or Azure engineering
-- **Monthly:** one deeper strategic article aimed at leadership and decision-makers
-- **Quarterly:** one flagship piece that ties Umplify's perspective together across AI, platform, and delivery
-
-This approach helps Umplify build topical authority over time while keeping the editorial voice disciplined and consistent.
-
 ## Explore by theme
 
 - [AI Transformation Services](/ai-transformation/)
