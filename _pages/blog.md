@@ -43,9 +43,3 @@ Some articles are strategic and leadership-facing. Others are more technical and
 - [Terraform, Bicep, and the case for delivery discipline](/blog/terraform-bicep-and-the-case-for-delivery-discipline/)
 - [Designing APIs that support AI and integration](/blog/designing-apis-that-support-ai-and-integration/)
 
-## Explore by theme
-
-- [AI Transformation Services](/ai-transformation/)
-- [Cloud Platform Engineering Services](/cloud-solutions/)
-- [Frequently Asked Questions](/faq/)
-- [Contact Umplify](/contact/)
