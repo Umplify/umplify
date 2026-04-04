@@ -1,6 +1,6 @@
 <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/images/revamp/umplify-mark.svg' | relative_url }}">
 
 {% assign seo_title = page.title | default: site.title %}
 {% assign seo_description = page.excerpt | default: site.description %}
@@ -10,6 +10,7 @@
 {% elsif seo_image %}
   {% assign absolute_seo_image = seo_image | absolute_url %}
 {% endif %}
+{% assign absolute_logo = site.logo | absolute_url %}
 
 <meta property="og:image" content="{{ absolute_seo_image }}">
 <meta name="twitter:image" content="{{ absolute_seo_image }}">
@@ -25,7 +26,7 @@
   "@type": "Organization",
   "name": "Umplify Technologies Inc.",
   "url": "{{ site.url }}",
-  "logo": "{{ site.og_image | absolute_url }}",
+  "logo": "{{ absolute_logo }}",
   "description": "{{ site.description | escape }}",
   "areaServed": [
     {"@type": "AdministrativeArea", "name": "Greater Toronto Area"},
@@ -96,7 +97,7 @@
     "name": "Umplify Technologies Inc.",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.og_image | absolute_url }}"
+      "url": "{{ absolute_logo }}"
     }
   },
   "image": "{{ absolute_seo_image }}",

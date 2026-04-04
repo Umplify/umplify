@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://umplify.com/sitemap.xml

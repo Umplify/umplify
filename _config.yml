@@ -20,7 +20,7 @@ url                      : "https://umplify.com"
 baseurl                  :
 repository               : "Umplify/umplify"
 teaser                   : "/assets/images/revamp/hero-ai.svg"
-logo                     :
+logo                     : "/assets/images/revamp/umplify-mark.svg"
 masthead_title           : Umplify
 breadcrumbs              : true
 words_per_minute         : 200
@@ -171,7 +171,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone:
+timezone: America/Toronto
 
 plugins:
   - jekyll-paginate
