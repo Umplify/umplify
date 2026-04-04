@@ -1,5 +1,5 @@
 ---
-title: "Azure platform engineering for AI-ready systems"
+title: "Azure platform engineering for AI-ready business systems"
 date: 2026-01-23 09:00:00 -0500
 categories: [blog]
 tags: [azure, platform engineering, ai ready systems]

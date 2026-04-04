@@ -1,9 +1,9 @@
 ---
-title: "How to prioritize enterprise AI use cases"
+title: "How to prioritize enterprise AI use cases that matter"
 date: 2026-03-18 09:00:00 -0400
 categories: [blog]
 tags: [enterprise ai, prioritization, ai strategy]
-excerpt: "A practical method for choosing which AI use cases deserve investment first and which ones should wait until the organization is more prepared."
+excerpt: "A practical method for choosing which enterprise AI use cases deserve investment first and which ones should wait until the organization is more prepared."
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.18"

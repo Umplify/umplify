@@ -3,7 +3,7 @@ title: "Event-driven architecture on Azure for operational scale"
 date: 2025-11-30 09:00:00 -0500
 categories: [blog]
 tags: [event-driven architecture, azure, scale]
-excerpt: "Event-driven architecture can be a strong fit on Azure when businesses need responsive systems, cleaner orchestration, and better support for scale."
+excerpt: "Event-driven architecture can be a strong fit on Azure when businesses need responsive systems, cleaner orchestration, and better support for operational scale."
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"

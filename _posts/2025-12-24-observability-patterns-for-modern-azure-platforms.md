@@ -3,7 +3,7 @@ title: "Observability patterns for modern Azure platforms"
 date: 2025-12-24 09:00:00 -0500
 categories: [blog]
 tags: [observability, azure, platform operations]
-excerpt: "Modern Azure platforms need observability that helps teams understand systems, not just collect more telemetry."
+excerpt: "Modern Azure platforms need observability that helps teams understand system behavior, not simply collect more telemetry."
 header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"
