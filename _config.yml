@@ -11,11 +11,11 @@ minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Umplify | AI Transformation Consulting in Toronto and Canada"
+title                    : "Umplify | AI Transformation and Cloud Platform Engineering"
 title_separator          : "|"
 subtitle                 : "AI-ready systems, agentic workflows, cloud platform engineering, and practical technology insight"
 name                     : "Umplify Technologies Inc."
-description              : "Umplify helps businesses in the Greater Toronto Area and across Canada become AI-ready through AI transformation consulting, agentic workflows, enterprise AI integration, MCP-oriented architecture, cloud platform engineering on Azure, and practical technology insight published through the Umplify blog."
+description              : "Umplify helps businesses in the Greater Toronto Area and across Canada become AI-ready through AI transformation services, enterprise AI integration, agentic workflows, and Azure cloud platform engineering."
 url                      : "https://umplify.com"
 baseurl                  :
 repository               : "Umplify/umplify"
