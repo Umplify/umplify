@@ -19,3 +19,6 @@ The library is especially useful because it supports more than one adoption styl
 That matters in real codebases. Test design improves when the container can manage dependencies predictably, when setup logic is centralized, and when integration-style tests feel less artificial. The result is usually cleaner tests, easier migration paths, and fewer inconsistencies between production architecture and test architecture.
 
 For teams already invested in the Microsoft.Extensions ecosystem, using the same conceptual model in tests is often a meaningful improvement rather than a small ergonomic win.
+
+
+You can explore the project on [GitHub](https://github.com/Umplify/xunit-dependency-injection) and install it via [NuGet](https://www.nuget.org/packages/Xunit.Microsoft.DependencyInjection/).
