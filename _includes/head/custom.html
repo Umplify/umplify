@@ -1,5 +1,112 @@
 <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/images/revamp/umplify-mark.svg' | relative_url }}">
+
+{% assign seo_title = page.title | default: site.title %}
+{% assign seo_description = page.excerpt | default: site.description %}
+{% assign seo_image = page.header.overlay_image | default: page.image | default: site.og_image %}
+{% if seo_image and seo_image contains '://' %}
+  {% assign absolute_seo_image = seo_image %}
+{% elsif seo_image %}
+  {% assign absolute_seo_image = seo_image | absolute_url %}
+{% endif %}
+{% assign absolute_logo = site.logo | absolute_url %}
+
+<meta property="og:image" content="{{ absolute_seo_image }}">
+<meta name="twitter:image" content="{{ absolute_seo_image }}">
+<meta property="og:locale" content="en_CA">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta name="geo.region" content="CA-ON">
+<meta name="geo.placename" content="Toronto">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Umplify Technologies Inc.",
+  "url": "{{ site.url }}",
+  "logo": "{{ absolute_logo }}",
+  "description": "{{ site.description | escape }}",
+  "areaServed": [
+    {"@type": "AdministrativeArea", "name": "Greater Toronto Area"},
+    {"@type": "Country", "name": "Canada"}
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Toronto",
+    "addressRegion": "ON",
+    "addressCountry": "CA"
+  },
+  "sameAs": [
+    "https://github.com/Umplify/umplify"
+  ]
+}
+</script>
+
+{% if page.url == '/faq/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does it mean for a business to become AI-ready?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AI-ready business has the workflows, systems, knowledge access, permissions, governance, and platform architecture needed to support useful AI implementation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are agentic workflows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agentic workflows are business workflows where AI can retrieve information, support decisions, coordinate tasks, and interact with tools or business systems within defined controls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does cloud platform engineering still matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cloud platform engineering provides the APIs, runtime reliability, observability, deployment automation, and secure operations needed to scale AI initiatives in production."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}
+
+{% if page.categories contains 'blog' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ seo_description | strip_html | strip_newlines | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "Arash Sabet"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Umplify Technologies Inc.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ absolute_logo }}"
+    }
+  },
+  "image": "{{ absolute_seo_image }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+}
+</script>
+{% endif %}
 
 <!-- end custom head snippets -->

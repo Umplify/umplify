@@ -1,61 +1,83 @@
 ---
-  title: "Cloud Solutions"
-  sitemap: false
-  layout: splash
-  permalink: /cloud-solutions/
+title: "Cloud Platform Engineering Services"
+layout: splash
+permalink: /cloud-solutions/
+author_profile: false
+classes:
+  - landing
+  - wide
+header:
+  overlay_color: "#08142C"
+  overlay_filter: "0.16"
+  overlay_image: /assets/images/revamp/hero-cloud.svg
+excerpt: "Cloud platform engineering services for Azure, APIs, DevOps, application modernization, and AI-ready architecture."
+feature_row_right_title:
+  - image_path: /assets/images/revamp/hero-cloud.svg
+    title: "Cloud platform engineering for AI-ready businesses"
+    excerpt: >-
+      Modern AI initiatives depend on stronger architecture underneath them. We help businesses modernize applications, strengthen delivery foundations, improve system resilience, and create the runtime environment needed for secure AI implementation at scale.
 
-  feature_row_right_title:
-  - image_path: /assets/images/splash/solutions.svg
-    title: Our Azure Cloud solutions elevates your business to the next level
-    excerpt: No matter where your business level is, Umplify Inc. always offers a proven approach to take your business to the next level. That's done primarily by automating agile software development and continuous delivery to the cloud horizontally and vertically. Umplify Inc. is a one-stop solution provider for your business should you want to leverage cloud security, Content Delivery Network CDN, API Management, and migrate to a serverless environment.
+      This is where cloud, APIs, delivery automation, and operational discipline come together to support modern products and modern workflows.
+feature_row_left1:
+  - image_path: /assets/images/splash/cloudenrollment.svg
+    title: "Cloud modernization"
+    excerpt: >-
+      Modernization is not only about migrating infrastructure. It is about improving the shape of the application, its operating model, its resilience profile, and its ability to support future change.
 
-  feature_row_left1:
-    - image_path: /assets/images/splash/cloudenrollment.svg
-      title: Cloud Enrollment
-      excerpt: We tailored this process to help companies considering cloud adoption or are at the early stage of adopting it for their business.
-      url: cloud-solutions/azure-cloud-enrollment
-      btn_label: "Read More"
-      btn_class: "btn--primary"
+      We help businesses redesign legacy or constrained systems into architectures that are more scalable, maintainable, and ready for modern integration and AI adoption.
+    url: /cloud-modernization/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
+feature_row_right1:
+  - image_path: /assets/images/splash/transform.svg
+    title: "SaaS and platform architecture"
+    excerpt: >-
+      Strong platforms create leverage. We help businesses evolve products into stronger SaaS and platform foundations with better tenancy models, clearer boundaries, improved reliability, and a more extensible architecture.
 
-  feature_row_right1:
-    - image_path: /assets/images/splash/transform.svg
-      title: SaaS Transformation
-      excerpt: We help your business transform your existing applications to a Software-as-a-Service (Saas) architecture for additional security, high availability, and resilience on Azure Cloud.
-      url: cloud-solutions/saas-transformation
-      btn_label: "Read More"
-      btn_class: "btn--primary"
+      The result is a platform that is easier to scale, easier to operate, and better prepared for product growth and AI-enabled capabilities.
+    url: /saas-platform-architecture/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
+feature_row_left2:
+  - image_path: /assets/images/splash/event-driven.svg
+    title: "Serverless and event-driven systems"
+    excerpt: >-
+      Not every workload should be serverless, but the right workload often benefits significantly from it. We help teams adopt event-driven and serverless patterns where they improve elasticity, simplify operations, and reduce unnecessary infrastructure effort.
 
-  feature_row_left2:
-    - image_path: /assets/images/splash/event-driven.svg
-      title: Migration to Event-Driven architecture
-      excerpt: Our extensive experience in the Azure cloud platform led us to implement DigitalSilo, a state-of-art event-driven serverless framework to run stateless tasks at scale. DigitalSilo eliminates the burden of infrastructure-driven implementation by abstracting it. Digital Silo lets developers concentrate on constructing their business logic code, not the infrastructure. We can help your team to adopt this framework to harness the power of the Azure cloud for computation.
-      url: https://digitalsilo.io
-      btn_label: "Digital Silo"
-      btn_class: "btn--primary" 
+      This is especially valuable when systems need to react quickly, integrate cleanly, and support workflow orchestration at scale.
+    url: /serverless-event-driven-systems/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
+feature_row_right2:
+  - image_path: /assets/images/splash/webapps.svg
+    title: "Web applications and APIs"
+    excerpt: >-
+      Modern web applications and APIs need more than cosmetic improvement. They need stronger performance, cleaner service boundaries, better integration design, and a delivery model that supports ongoing evolution.
 
-  feature_row_right2:
-    - image_path: /assets/images/splash/webapps.svg
-      title: Revamping web apps by going serverless
-      excerpt: We leverage the knowledge we gained during the implementation of DigitalSilo to offer a robust and end-to-end solution to modernize your web applications and web APIs by going serverless. Azure cloud's serverless environment is an excellent choice for scalability, security, and traffic resilience.
-      url: cloud-solutions/serverless-web-apps
-      btn_label: "Read More"
-      btn_class: "btn--primary"
+      We modernize application layers so they are easier to maintain, easier to integrate, and better positioned for AI-enabled workflows and products.
+    url: /web-applications-apis/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
+feature_row_left3:
+  - image_path: /assets/images/splash/iaac.svg
+    title: "Infrastructure as Code and DevOps"
+    excerpt: >-
+      Infrastructure and delivery processes shape reliability more than most teams realize. We implement provisioning automation, deployment discipline, CI/CD, and environment consistency so change becomes safer and faster.
 
-  feature_row_left3:
-    - image_path: /assets/images/splash/iaac.svg
-      title: Adopting Infrastructure-as-a-Code (IaaC)
-      excerpt: Our DevOps engineers can help your company programmatically provision the physical resources that your application requires to run on Azure. We use the most modern technologies in the market like Terraform and Bicep to eliminate the manual process of creating your Azure resources.
-      url: cloud-solutions/infrastructure-provisioning
-      btn_label: "Read More"
-      btn_class: "btn--primary" 
+      This improves release confidence, operational repeatability, and the overall maturity of the engineering organization.
+    url: /infrastructure-as-code-devops/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
+feature_row_right3:
+  - image_path: /assets/images/revamp/diagram-mcp.svg
+    title: "Platform foundations for AI integration"
+    excerpt: >-
+      Enterprise AI needs a dependable runtime environment underneath it. We design the APIs, access layers, observability, and control patterns that help AI operate safely with real systems, data, and workflows.
 
-  feature_row_right3:
-    - image_path: /assets/images/splash/decentralized-storage.svg
-      title: Storage decentralization (beta)
-      excerpt: We help your business decentralize its data primarily on Azure Cloud infrastructure by leveraging the most cutting-edge protocols in the industry. We create a private cluster of peer-to-peer nodes where you can store and retrieve your files securely and reliably with 99.999% availability 24/7/365. Optionally turn every single machine in your organization into a peer-to-peer storage node for further redundancy without compromising the security.
-      url: TBD
-      btn_label: "Ask us how"
-      btn_class: "btn--primary" 
+      This is where platform engineering becomes a direct enabler of AI execution rather than a separate technology conversation.
+    url: /platform-foundations-ai-integration/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="feature_row_right_title" type="right" %}
@@ -65,3 +87,9 @@
 {% include feature_row id="feature_row_right2" type="right" %}
 {% include feature_row id="feature_row_left3" type="left" %}
 {% include feature_row id="feature_row_right3" type="right" %}
+
+## Why this page matters
+
+Cloud platform engineering is the enabling layer behind reliable AI transformation. It gives businesses the architecture, integrations, delivery patterns, and runtime stability required to modernize products and support enterprise AI in production.
+
+[Discuss your platform architecture](/contact/){: .btn .btn--primary}

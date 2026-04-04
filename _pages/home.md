@@ -1,81 +1,88 @@
 ---
 permalink: /
-title: "Cloud-Native Solutions."
+title: "AI Transformation Services for Real Business Change"
 author_profile: false
 layout: splash
 classes:
-    - landing
-    - wide
+  - landing
+  - wide
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.125"
-  overlay_image: /assets/images/splash/splashhomepage.jpg
+  overlay_color: "#08142C"
+  overlay_filter: "0.18"
+  overlay_image: /assets/images/revamp/hero-ai.svg
   actions:
-    - label: "Getting started"
-      url: "/start"
-excerpt: "A team of senior software developers and architects ready to deliver cloud-native applications." 
+    - label: "Explore AI Transformation"
+      url: "/ai-transformation/"
+    - label: "Book a Discovery Call"
+      url: "/contact/"
+excerpt: "Umplify helps businesses become AI-ready through AI transformation services, agentic workflows, enterprise AI integration, and cloud platform engineering."
 intro:
-  - excerpt: We are expert in the Microsoft Azure Cloud technology and harness its powerful platform to transform your business with cloud-native application modernization.
+  - excerpt: "Umplify helps ambitious businesses move from scattered AI experiments to production-ready systems that create measurable operational leverage. We design AI-ready workflows, enterprise integrations, private knowledge access, and the platform foundations required to scale with confidence."
 feature_row:
-  - image_path: /assets/images/splash/developer.svg
-    title: 1. Develop the grains
-    excerpt: Download our free **.NET SDK** to implement your business logic tasks aka grains.
-    ## url: "#test-link"
-    ## btn_label: "Read More"
-    ## btn_class: "btn--secondar"
-  - image_path: /assets/images/splash/deploy.svg
-    title: 2. Provision the Silo
-    excerpt: Download and run the build pipeline to deploy Digital Silo to your Azure subscription. **You need to do it only once!**
-    # url: "#test-link"
-    # btn_label: "Read More"
-    # btn_class: "btn--secondar"
-  - image_path: /assets/images/splash/launch.svg
-    title: 3. Deploy the grains
-    excerpt: Upload your implemented .NET grains to your Digital Silo's provisioned Azure storage.
-    # url: "#test-link"
-    # btn_label: "Read More"
-    # btn_class: "btn--secondar"   
+  - image_path: /assets/images/splash/solutions.svg
+    title: "AI Transformation"
+    excerpt: >-
+      Build a practical path from opportunity discovery to implementation. We help leadership teams and technical teams align on where AI can create measurable business value, what has to change operationally, and what must be built technically.
 
-feature_row_right1:
-  - image_path: /assets/images/cloud.svg
-    title: "Our mission: Cloud First"
-    excerpt: Our partnership with your company leads to deliver innovative cloud solutions in every stage of your application's lifecycle. We adapt Agile methodology through the collaborative effort to ensure the seamless delivery of your product at scale. 
-    url: our-mission
-    btn_label: "Read More"
+      The result is a clearer strategy, a stronger delivery roadmap, and a more disciplined foundation for enterprise AI adoption.
+    url: /ai-transformation/
+    btn_label: "Read more..."
     btn_class: "btn--primary"
+  - image_path: /assets/images/splash/event-driven.svg
+    title: "Agentic Workflows"
+    excerpt: >-
+      Move beyond assistants that only answer questions. We design workflows where AI can retrieve context, coordinate steps, support decisions, and interact with business systems within clear control boundaries.
 
+      This creates faster execution, lower operational drag, and a more useful role for AI inside real day-to-day work.
+    url: /agentic-workflow-design/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
+  - image_path: /assets/images/splash/iaac.svg
+    title: "Cloud Platform Engineering"
+    excerpt: >-
+      Give your AI initiatives an architecture they can rely on. We design Azure-based platforms, APIs, delivery pipelines, runtime controls, and observability patterns that make modern systems dependable in production.
+
+      The goal is not just scale. It is safe scale, stronger operations, and a platform built for product and workflow growth.
+    url: /cloud-solutions/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
+feature_row_right1:
+  - image_path: /assets/images/revamp/diagram-agentic.svg
+    title: "Private knowledge and secure execution"
+    excerpt: >-
+      AI becomes far more valuable when it can work with the right internal context. We help organizations structure secure retrieval, permissions-aware knowledge access, and execution patterns that respect operational and governance boundaries.
+
+      That means better answers, better actions, and less risk when AI starts interacting with real business content and systems.
+    url: /private-knowledge-secure-execution/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
 feature_row_left1:
-  - image_path: /assets/images/flexibility_software.svg
-    title: What we offer
-    excerpt: We offer world-class reliable cloud solutions tailored to your needs which scale as your business grows. We transform your products to improve their reliability, security, availability, and scalability. Our application architects will help you audit your existing applications and choose the best approach for cloud migration so that you can unlock the power of cloud-native application development.
-    url: what-umplify-offers
-    btn_label: "Read More"
-    btn_class: "btn--primary"  
-   
- 
-  
-# feature_row_techs:
-#   - image_path: assets/images/splash/azure100x100.png
-#   - image_path: assets/images/splash/NET_logo.png
-#   - image_path: /assets/images/splash/angular100.png
-#   - image_path: assets/images/splash/ts-logo-100.png
-#   - image_path: assets/images/splash/terraform_logo.png
-       
+  - image_path: /assets/images/revamp/diagram-mcp.svg
+    title: "Enterprise AI integration"
+    excerpt: >-
+      Strong AI initiatives depend on strong integration. We connect tools, internal platforms, knowledge sources, APIs, and access layers so AI systems can operate with the right context and within the right boundaries.
+
+      This is where strategy becomes usable infrastructure and where isolated AI ideas start becoming enterprise capability.
+    url: /enterprise-ai-integration/
+    btn_label: "Read more..."
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
+{% include feature_row id="feature_row" %}
 {% include feature_row id="feature_row_right1" type="right" %}
 {% include feature_row id="feature_row_left1" type="left" %}
 
+## AI-ready systems for real operational leverage
 
-# Your forward-thinking cloud journey partner
-{: .text-center}
+Umplify helps companies modernize systems for AI, connect internal tools and knowledge to modern models, and implement workflows that improve how work gets done. Our work spans **AI transformation services**, **agentic workflow design**, **enterprise AI integration**, **private knowledge systems**, and **cloud platform engineering**.
 
-Our partnership with companies, including startups and enterprises, has led to the launch of many successful world-class cloud applications. With our Research & Development (R&D) background, We have worked with those organizations to design, build and deliver modern, innovative, and cloud-first applications that operate at scale. We are your forward-thinking and reliable partner in your cloud journey. 
+## Ideal fit
 
----
+Umplify is best suited to software-led businesses, startups, and enterprise teams that already have valuable systems, data, and workflows but need a practical path to AI adoption and production execution.
 
-{: .text-center}
+## Start with the right conversation
 
+The strongest first step is usually an **AI readiness discussion**, an **agentic workflow discovery session**, or a **platform architecture review**.
 
-![](../assets/images/splash/umplifytechs.png){: .align-center}
+[Book a discovery call](/contact/){: .btn .btn--primary}

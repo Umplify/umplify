@@ -1,9 +1,15 @@
 main:
   - title: "Home"
     url: /
-  - title: "Cloud Solutions"
+  - title: "AI Transformation"
+    url: /ai-transformation/
+  - title: "Cloud Platform Engineering"
     url: /cloud-solutions/
+  - title: "Blog"
+    url: /blog/
+  - title: "FAQ"
+    url: /faq/
   - title: "About"
     url: /about/
-  - title: "Contact Us"
-    url: /contact/  
+  - title: "Contact"
+    url: /contact/
