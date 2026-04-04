@@ -21,13 +21,41 @@ This section is designed to be a practical resource rather than a generic market
 
 Some articles are strategic and leadership-facing. Others are more technical and implementation-focused. Together, they are intended to help business and engineering teams think more clearly about what modern transformation work actually requires.
 
+## Featured articles
+
+### AI transformation and operating model
+
+- [AI readiness is an operating model, not a prompt](/blog/ai-readiness-is-an-operating-model-not-a-prompt/)
+- [Where agentic workflows create real business value](/blog/where-agentic-workflows-create-real-business-value/)
+- [How to prioritize enterprise AI use cases that matter](/blog/how-to-prioritize-enterprise-ai-use-cases-that-matter/)
+- [From AI pilots to production: what breaks and why](/blog/from-ai-pilots-to-production-what-breaks-and-why/)
+
+### Azure and cloud engineering
+
+- [Azure platform engineering for AI-ready business systems](/blog/azure-platform-engineering-for-ai-ready-business-systems/)
+- [Cloud modernization before enterprise AI](/blog/cloud-modernization-before-enterprise-ai/)
+- [Observability patterns for modern Azure platforms](/blog/observability-patterns-for-modern-azure-platforms/)
+- [Secure Azure foundations for enterprise AI](/blog/secure-azure-foundations-for-enterprise-ai/)
+
+### Software engineering and delivery
+
+- [Why xunit-dependency-injection leads to cleaner .NET test architecture](/blog/why-xunit-dependency-injection-leads-to-cleaner-dotnet-test-architecture/)
+- [Terraform, Bicep, and the case for delivery discipline](/blog/terraform-bicep-and-the-case-for-delivery-discipline/)
+- [Designing APIs that support AI and integration](/blog/designing-apis-that-support-ai-and-integration/)
+
+## Publishing cadence
+
+The blog structure now supports weekly, monthly, or periodic publishing. A practical cadence could look like this:
+
+- **Weekly:** one focused article on AI transformation or Azure engineering
+- **Monthly:** one deeper strategic article aimed at leadership and decision-makers
+- **Quarterly:** one flagship piece that ties Umplify's perspective together across AI, platform, and delivery
+
+This approach helps Umplify build topical authority over time while keeping the editorial voice disciplined and consistent.
+
 ## Explore by theme
 
 - [AI Transformation Services](/ai-transformation/)
 - [Cloud Platform Engineering Services](/cloud-solutions/)
 - [Frequently Asked Questions](/faq/)
 - [Contact Umplify](/contact/)
-
-## Publishing rhythm
-
-The blog structure now supports weekly, monthly, or periodic publishing. That gives Umplify room to keep building topical authority over time while maintaining a consistent voice across AI, cloud, software architecture, and engineering delivery.
