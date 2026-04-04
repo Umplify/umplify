@@ -88,10 +88,10 @@ social:
     - "https://github.com/Umplify/umplify"
 
 analytics:
-  provider               : false
+  provider: "google-gtag"
   google:
-    tracking_id          :
-    anonymize_ip         :
+    tracking_id: "G-WSEKFYVPNE"
+    anonymize_ip: true
 
 author:
   name             : "Arash Sabet"
