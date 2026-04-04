@@ -15,7 +15,7 @@ header:
       url: "/ai-transformation/"
     - label: "Book a Discovery Call"
       url: "/contact/"
-excerpt: "Umplify helps businesses in Toronto, the Greater Toronto Area, and across Canada become AI-ready through AI transformation services, agentic workflows, enterprise AI integration, and cloud platform engineering."
+excerpt: "Umplify helps businesses become AI-ready through AI transformation services, agentic workflows, enterprise AI integration, and cloud platform engineering."
 intro:
   - excerpt: "Umplify helps ambitious businesses move from scattered AI experiments to production-ready systems that create measurable operational leverage. We design AI-ready workflows, enterprise integrations, private knowledge access, and the platform foundations required to scale with confidence."
 feature_row:
@@ -75,7 +75,7 @@ feature_row_left1:
 
 ## AI-ready systems for real operational leverage
 
-Umplify helps companies in **Toronto**, the **Greater Toronto Area**, and across **Canada** modernize systems for AI, connect internal tools and knowledge to modern models, and implement workflows that improve how work gets done. Our work spans **AI transformation services**, **agentic workflow design**, **enterprise AI integration**, **private knowledge systems**, and **cloud platform engineering**.
+Umplify helps companies modernize systems for AI, connect internal tools and knowledge to modern models, and implement workflows that improve how work gets done. Our work spans **AI transformation services**, **agentic workflow design**, **enterprise AI integration**, **private knowledge systems**, and **cloud platform engineering**.
 
 ## Ideal fit
 

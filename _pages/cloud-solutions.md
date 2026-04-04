@@ -10,7 +10,7 @@ header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"
   overlay_image: /assets/images/revamp/hero-cloud.svg
-excerpt: "Cloud platform engineering services in Toronto and Canada for Azure, APIs, DevOps, application modernization, and AI-ready architecture."
+excerpt: "Cloud platform engineering services for Azure, APIs, DevOps, application modernization, and AI-ready architecture."
 feature_row_right_title:
   - image_path: /assets/images/revamp/hero-cloud.svg
     title: "Cloud platform engineering for AI-ready businesses"

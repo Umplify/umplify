@@ -13,7 +13,7 @@ header:
   actions:
     - label: "Book a Discovery Call"
       url: "/contact/"
-excerpt: "AI transformation services in Toronto, the Greater Toronto Area, and across Canada for businesses that need agentic workflows, enterprise AI integration, private knowledge systems, and production-grade delivery."
+excerpt: "AI transformation services for businesses that need agentic workflows, enterprise AI integration, private knowledge systems, and production-grade delivery."
 intro:
   - excerpt: "Umplify helps organizations move beyond generic AI experimentation into focused implementation with measurable business intent. We work across strategy, workflow design, knowledge access, systems integration, and platform engineering so AI becomes a real operating capability rather than a side initiative."
 feature_row:
@@ -77,6 +77,6 @@ AI transformation is not one service. It is the coordinated redesign of workflow
 
 ## Who this is for
 
-Umplify works best with software-led businesses, startups, and enterprise teams in Toronto, the Greater Toronto Area, and across Canada that want to modernize how work gets done and need more than a generic advisory deck.
+Umplify works best with software-led businesses, startups, and enterprise teams that want to modernize how work gets done and need more than a generic advisory deck.
 
 [Talk to Umplify about AI transformation](/contact/){: .btn .btn--primary}

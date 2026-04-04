@@ -3,7 +3,7 @@ title: "About Umplify"
 permalink: /about/
 layout: single
 author_profile: false
-excerpt: "Learn about Umplify, an AI transformation and cloud platform engineering partner serving Toronto, the Greater Toronto Area, and Canada."
+excerpt: "Learn about Umplify, an AI transformation and cloud platform engineering partner."
 header:
   overlay_color: "#0B1F3F"
   overlay_filter: "0.2"
@@ -14,7 +14,7 @@ header:
 
 ## About Umplify
 
-Umplify is a Toronto-based technology company focused on **AI transformation services**, **agentic workflows**, **enterprise AI integration**, and **cloud platform engineering**. We help businesses in the Greater Toronto Area and across Canada become AI-ready by connecting strategy, architecture, and implementation.
+Umplify is a technology company focused on **AI transformation services**, **agentic workflows**, **enterprise AI integration**, and **cloud platform engineering**. We help businesses become AI-ready by connecting strategy, architecture, and implementation.
 
 ## What makes Umplify different
 
