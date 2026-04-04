@@ -2,8 +2,9 @@
   {% if site.data.ui-text[site.locale].share_on_label %}
   <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
   {% endif %}
-  <a href="https://twitter.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&amp;{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
-     class="btn btn--twitter"
+  <a href="https://twitter.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&amp;amp;{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
+     class="btn"
+     style="background:#000;color:#fff;border-color:#000"
      title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} X">
     𝕏
   </a>
