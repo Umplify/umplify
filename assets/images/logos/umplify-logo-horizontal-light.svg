@@ -1,0 +1,15 @@
+<svg width="340" height="64" viewBox="0 0 340 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Umplify — Activated I Wordmark (Horizontal, Light/White Backgrounds)
+    font: Segoe UI 600, size 36, letter-spacing -0.5 | baseline y=52
+    "umpl" ≈ 86px → "i" centre ≈ x=107 | activation node cy=22
+  -->
+
+  <text y="52"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="36" font-weight="600" letter-spacing="-0.5">
+    <tspan x="16" fill="#060A14">umpl</tspan><tspan fill="#2563EB">i</tspan><tspan fill="#060A14">fy</tspan>
+  </text>
+
+  <circle cx="107" cy="22" r="5.5" fill="#2563EB"/>
+</svg>
