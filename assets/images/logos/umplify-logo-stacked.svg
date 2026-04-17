@@ -1,0 +1,16 @@
+<svg width="220" height="64" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Umplify — Activated I Wordmark (Stacked / Centred)
+    font: Segoe UI 600, size 28, letter-spacing -0.5 | baseline y=50
+    text-anchor middle at x=110
+    "umpl" ≈ 66px → "i" centre ≈ x=130 | activation node cy=22
+  -->
+
+  <text text-anchor="middle" x="110" y="50"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="28" font-weight="600" letter-spacing="-0.5">
+    <tspan fill="#060A14">umpl</tspan><tspan fill="#2563EB">i</tspan><tspan fill="#060A14">fy</tspan>
+  </text>
+
+  <circle cx="130" cy="22" r="4.5" fill="#2563EB"/>
+</svg>

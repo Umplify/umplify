@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Umplify — App Icon / Standalone Mark
+    The "Activated I" distilled to its essence:
+      a white vertical stem (the i) + an electric blue circle above (the node).
+    Works at 16×16 through 512×512.
+    Background: #060A14 with rounded corners (rx=12 for app-icon use).
+  -->
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#060A14"/>
+
+  <!-- Activation node — blue circle (the dot, activated) -->
+  <circle cx="32" cy="19" r="7" fill="#2563EB"/>
+
+  <!-- I-stem — white vertical stroke -->
+  <line x1="32" y1="29" x2="32" y2="50"
+        stroke="#ffffff" stroke-width="5.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="340" height="64" viewBox="0 0 340 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    Umplify — Activated I Wordmark (Horizontal, Dark Backgrounds)
+    Same geometry as light variant, colours inverted.
+  -->
+
+  <text y="52"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="36" font-weight="600" letter-spacing="-0.5">
+    <tspan x="16" fill="#ffffff">umpl</tspan><tspan fill="#3B82F6">i</tspan><tspan fill="#ffffff">fy</tspan>
+  </text>
+
+  <circle cx="107" cy="22" r="5.5" fill="#3B82F6"/>
+</svg>
