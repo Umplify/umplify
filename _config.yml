@@ -21,7 +21,8 @@ baseurl                  :
 repository               : "Umplify/umplify"
 teaser                   : "/assets/images/revamp/hero-ai.svg"
 
-masthead_title           : Umplify
+logo                     : "/assets/images/logos/umplify-logo-horizontal-light.svg"
+masthead_title           : " "
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
