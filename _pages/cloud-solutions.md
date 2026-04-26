@@ -1,8 +1,9 @@
 ---
-title: "Cloud Platform Engineering Services"
+title: "Azure Cloud Platform Engineering Services"
 layout: splash
 permalink: /cloud-solutions/
 author_profile: false
+service_schema: true
 classes:
   - landing
   - wide
@@ -10,7 +11,12 @@ header:
   overlay_color: "#08142C"
   overlay_filter: "0.16"
   overlay_image: /assets/images/revamp/hero-cloud.svg
-excerpt: "Cloud platform engineering services for Azure, APIs, DevOps, application modernization, and AI-ready architecture."
+  actions:
+    - label: "Book a Platform Architecture Review"
+      url: "/contact/"
+    - label: "How We Engage"
+      url: "/how-we-engage/"
+excerpt: "Azure cloud platform engineering services in Toronto and across Canada for AI-ready architecture, APIs, DevOps, application modernization, SaaS evolution, and production-grade delivery."
 feature_row_right_title:
   - image_path: /assets/images/revamp/hero-cloud.svg
     title: "Cloud platform engineering for AI-ready businesses"
@@ -88,8 +94,32 @@ feature_row_right3:
 {% include feature_row id="feature_row_left3" type="left" %}
 {% include feature_row id="feature_row_right3" type="right" %}
 
+## Outcomes you can expect
+
+Azure platform engagements at Umplify are scoped around measurable shifts:
+
+- A reference architecture that fits your product, your team, and your budget
+- Modernized .NET applications and APIs ready for AI-enabled features
+- Infrastructure-as-code (Bicep or Terraform) you can review, version, and own
+- CI/CD pipelines that make releases boring instead of risky
+- Observability, cost controls, and runtime patterns that age well
+- Skills transferred to your engineering team along the way
+
+## Azure-native depth
+
+Our deepest expertise is in Microsoft Azure, .NET, and the Azure AI stack:
+
+- Azure OpenAI, Azure AI Foundry, Azure AI Search
+- Container Apps, Functions, AKS, App Service
+- API Management, Service Bus, Event Grid, Event Hubs
+- Cosmos DB, Azure SQL, PostgreSQL Flexible Server
+- Azure Front Door, CDN, Application Gateway, Private Link
+- Bicep, Terraform, Azure DevOps, GitHub Actions
+- Application Insights, Log Analytics, Azure Monitor
+
 ## Why this page matters
 
-Cloud platform engineering is the enabling layer behind reliable AI transformation. It gives businesses the architecture, integrations, delivery patterns, and runtime stability required to modernize products and support enterprise AI in production.
+Azure platform engineering is the enabling layer behind reliable AI transformation. It gives businesses the architecture, integrations, delivery patterns, and runtime stability required to modernize products and support enterprise AI in production.
 
-[Discuss your platform architecture](/contact/){: .btn .btn--primary}
+[Discuss your platform architecture](/contact/){: .btn .btn--primary .btn--large}
+[See how we engage](/how-we-engage/){: .btn .btn--inverse}

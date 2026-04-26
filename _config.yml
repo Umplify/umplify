@@ -11,11 +11,11 @@ minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Umplify | AI Transformation and Cloud Platform Engineering"
+title                    : "Umplify | AI Transformation and Azure Cloud Platform Engineering"
 title_separator          : "|"
-subtitle                 : "Your AI and Cloud transformation partner"
+subtitle                 : "AI-ready systems. Production-grade Azure platforms."
 name                     : "Umplify Technologies Inc."
-description              : "Umplify helps businesses in the Greater Toronto Area and across Canada become AI-ready through AI transformation services, enterprise AI integration, agentic workflows, and Azure cloud platform engineering."
+description              : "Umplify is a Toronto-based AI transformation and Azure cloud platform engineering partner. We design agentic workflows, enterprise AI integrations, private knowledge systems, and production-grade Azure architecture for software-led businesses across Canada."
 url                      : "https://umplify.com"
 baseurl                  :
 repository               : "Umplify/umplify"
@@ -180,6 +180,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 whitelist:
   - jekyll-paginate
@@ -187,6 +188,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 category_archive:
   type: liquid
