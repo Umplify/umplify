@@ -3,8 +3,10 @@ main:
     url: /
   - title: "AI Transformation"
     url: /ai-transformation/
-  - title: "Cloud Platform Engineering"
+  - title: "Azure Platform"
     url: /cloud-solutions/
+  - title: "How We Engage"
+    url: /how-we-engage/
   - title: "Blog"
     url: /blog/
   - title: "FAQ"

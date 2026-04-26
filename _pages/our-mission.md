@@ -1,27 +1,44 @@
 ---
-title: "Our mission"
-sitemap: false
-layout: splash
+title: "Our Mission"
 permalink: /our-mission/
-
-feature_row_left:
-  - image_path: /assets/images/splash/404.svg
+layout: single
+author_profile: false
+sitemap: true
+excerpt: "Umplify exists to help software-led businesses turn AI ambition into production-grade, secure, and operationally sound systems on Microsoft Azure."
+header:
+  overlay_color: "#08142C"
+  overlay_filter: "0.18"
+  overlay_image: /assets/images/revamp/hero-cloud.svg
 ---
 
-{% include feature_row id="feature_row_left" type="left" %}
+![Mission visual](/assets/images/revamp/ai-platform-foundation.svg)
 
-# Our Mission
+## Our mission
 
-With senior skilled cloud architects and developers with extensive R&D backgrounds on board, we are fully equipped to help you develop cloud-native applications or migrate your existing ones to the Microsoft Azure Cloud.
+Umplify exists to help software-led businesses turn AI ambition into production-grade systems that are secure, observable, and operationally sound. We believe AI transformation only matters when it ships, runs reliably, and creates measurable business leverage.
 
-From cloud readiness assessment and strategy development to infrastructure setup, architecture redesign, migration, and maintenance, our unparalleled specialists will support you at any stage of your cloud journey. We help you deliver solutions faster with higher quality using the most cutting-edge technologies to help you automate the process of cloud software development.
+## What we believe
 
-We set up innovative and collaborative tools like code repository, automatic Continuous Integration & Continuous Delivery (CI/CD) pipelines, DevOps, Infrastructure-as-a-Code (IaaC), and automated QA testing to help your software development team perform at scale.
+1. **Production is the only success metric.** Pilots that never ship are not real outcomes.
+2. **Architecture before optimization.** A weak foundation cannot be tuned into a strong platform.
+3. **Senior people, end to end.** Architecture, code, integration, and operations should be done by people with real production experience.
+4. **Skills transfer is the deliverable.** The team you keep should be stronger because we were there.
+5. **Plain language wins.** Architectural decisions should be defensible to engineers and to the board.
 
-## An Integrated Cloud Application Development Team
+## What we do
 
-Our consulting services concept is based on total engagement; we do not just advise and then walk away. We are not just another software development shop. Our team consists of experts in all aspects of the software development lifecycle. We are known for our deep experience in Microsoft Azure Cloud and for employing .NET technology to help your development team turn the ideas into a product on the cloud. Our people become integral to your organization's team, building your cloud-powered applications efficiently and reliably using the most modern tools.
+We help organizations design AI-ready workflows, secure enterprise integrations, private knowledge systems, and Azure cloud platforms that can carry AI workloads in production. Our delivery covers strategy, architecture, hands-on engineering, governance, and operationalization, all under one senior team.
 
-With our 20+ years of experience in the software industry, we choose the most cost-effective, innovative, and efficient contemporary solution for implementing your cloud products. Some of these solutions are using NoSQL databases, event-driven serverless microservices, orchestration with Kubernetes, monitoring, cost management, and techniques to help you be more productive and agile.
+With more than two decades of senior software engineering experience, we choose the most cost-effective, modern, and maintainable solution for the situation in front of us. That often involves Azure-native services, event-driven architecture, container orchestration with AKS or Container Apps, NoSQL data, infrastructure-as-code, automated CI/CD, and disciplined observability.
 
-Our team consists of people who work with your company to navigate through all challenges, adopt changes quickly and deliver real value to your business and your clients faster with better quality.
+## Who we serve
+
+Software-led businesses, ISVs, scale-ups, and enterprise engineering teams across the Greater Toronto Area, the rest of Canada, and the United States, who want a senior partner that integrates with their team rather than around it.
+
+## Explore further
+
+- [About Umplify](/about/)
+- [How We Engage](/how-we-engage/)
+- [AI Transformation Services](/ai-transformation/)
+- [Azure Cloud Platform Engineering Services](/cloud-solutions/)
+- [Contact Umplify](/contact/)
