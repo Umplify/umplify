@@ -18,9 +18,9 @@ Most consulting engagements fail one of three ways: they generate decks no one b
 
 Every engagement runs through four phases. They are deliberately small, fixed in scope, and designed so you can stop after any phase with a usable result.
 
-## Phase 1: Discovery (free, 30 minutes)
+## Phase 1: Discovery (free, up to 3 hours)
 
-The first conversation is a 30-minute working call. We discuss your business goals, current systems, the workflows you want to improve, and the constraints that matter (compliance, timeline, budget, team capacity). At the end, you have a clearer view of what to do next, regardless of whether you choose to engage Umplify.
+The first conversation is a working session, up to three hours, conducted on a call, virtually, or in person. We discuss your business goals, current systems, the workflows you want to improve, and the constraints that matter (compliance, timeline, budget, team capacity). At the end, you have a clearer view of what to do next, regardless of whether you choose to engage Umplify.
 
 What you leave with:
 
