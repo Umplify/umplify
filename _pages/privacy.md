@@ -36,11 +36,11 @@ Form submissions are stored in Microsoft Azure in the Canada Central region, whi
 
 ## How long we keep it
 
-We keep enquiry records for two years from your last contact with us, then delete them. If you ask us to delete your information sooner, we will do that.
+We keep enquiry records only as long as we need them to respond to you and to keep ordinary business records. We review them periodically and delete what we no longer need. If you ask us to delete your information, we will do that.
 
 ## Consent and unsubscribing
 
-We only send you commercial email if you gave us consent on a form, or if we have an existing business relationship with you. Every email we send includes a way to unsubscribe, and you can also just reply and ask us to stop. We will action it.
+When you submit a form, you are consenting to us contacting you about your enquiry. Today that means a direct reply from a person at Umplify, not an automated mailing list. If we ever start sending regular marketing email, we will ask for your consent to that separately, and every one of those messages will carry an unsubscribe link. You can tell us to stop contacting you at any time by replying to any email or writing to [arash.sabet@umplify.com](mailto:arash.sabet@umplify.com), and we will action it.
 
 ## Your rights
 
