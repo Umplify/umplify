@@ -45,7 +45,7 @@ Plenty of people will sell you an AI subscription. Fewer will sit down, work out
 
 - **Toronto based.** We work across the GTA, remote by default, on site when it helps.
 - **Engineers, not resellers.** The person on your first call is the person who understands how it gets built.
-- **Your data stays yours.** Submissions and business data sit in Canadian data centres. We explain exactly what is stored and why, in the [privacy policy](/privacy/).
+- **Your data stays yours.** Submissions are stored in Canadian data centres. We explain exactly what is stored and why, in the [privacy policy](/privacy/).
 - **Plain language.** No jargon, no dashboards you will never open.
 
 ## Tell us what is eating your week

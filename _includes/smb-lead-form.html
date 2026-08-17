@@ -12,8 +12,10 @@
     .smb-form select, .smb-form textarea {
       width: 100%; padding: 10px 12px; border: 1px solid #C9D2E0; border-radius: 4px;
       font-size: 1em; font-family: inherit; background: #fff; box-sizing: border-box;
+      margin-bottom: 0; box-shadow: none;
     }
     .smb-form textarea { min-height: 110px; resize: vertical; }
+    .smb-form form { padding: 0; margin: 0; background: none; border: 0; }
     .smb-row { display: flex; gap: 14px; flex-wrap: wrap; }
     .smb-row > div { flex: 1 1 200px; }
     .smb-consent { display: flex; gap: 10px; align-items: flex-start; margin: 18px 0 6px; font-size: 0.85em; line-height: 1.5; }
@@ -23,15 +25,23 @@
     .smb-form button[disabled] { opacity: 0.6; cursor: default; }
     .smb-skip { background: none !important; color: #64748B !important; text-decoration: underline;
       padding: 13px 12px !important; font-weight: 400 !important; }
-    .smb-error { color: #B42318; font-size: 0.88em; margin-top: 12px; display: none; }
+    .smb-form p.smb-error { color: #B42318; font-size: 0.88em; margin-top: 12px; display: none; }
     .smb-hp { position: absolute; left: -5000px; width: 1px; height: 1px; overflow: hidden; }
     .smb-step { display: none; }
     .smb-step.is-active { display: block; }
-    .smb-note { font-size: 0.8em; color: #64748B; margin-top: 14px; }
+    .smb-form p.smb-note { font-size: 0.8em; color: #64748B; margin-top: 14px; }
   </style>
 
+  <noscript>
+    <p class="smb-note" style="color:#B42318;">
+      This form needs JavaScript to work. If you have it turned off, email
+      <a href="mailto:arash.sabet@umplify.com">arash.sabet@umplify.com</a>
+      with a sentence or two about your business and we will take it from there.
+    </p>
+  </noscript>
+
   <!-- Step 1 -->
-  <form class="smb-step is-active" id="smb-step-1" novalidate>
+  <form class="smb-step is-active" id="smb-step-1" method="post" novalidate tabindex="-1">
     <h3>Tell us about your business</h3>
     <p class="smb-note">Takes about a minute. No obligation, and we will not add you to a mailing list.</p>
 
@@ -98,18 +108,18 @@
     <div class="smb-consent">
       <input type="checkbox" id="smb-consent" name="consent" required>
       <label for="smb-consent" style="font-weight:400;margin:0;">
-        I agree that Umplify Technologies Inc. may contact me by email or phone about this enquiry
-        and about how AI could help my business. I can unsubscribe at any time.
+        I agree that Umplify Technologies Inc. may contact me by email or phone about this enquiry.
+        I can unsubscribe at any time.
         See the <a href="/privacy/">privacy policy</a>.
       </label>
     </div>
 
     <button type="submit">Continue</button>
-    <p class="smb-error" id="smb-error-1"></p>
+    <p class="smb-error" id="smb-error-1" role="alert"></p>
   </form>
 
   <!-- Step 2 -->
-  <form class="smb-step" id="smb-step-2" novalidate>
+  <form class="smb-step" id="smb-step-2" method="post" novalidate tabindex="-1">
     <h3>Two quick questions</h3>
     <p class="smb-note">We have your details already. These help us come to the first call with something useful.</p>
 
@@ -121,11 +131,11 @@
 
     <button type="submit">Send</button>
     <button type="button" class="smb-skip" id="smb-skip">Skip this</button>
-    <p class="smb-error" id="smb-error-2"></p>
+    <p class="smb-error" id="smb-error-2" role="alert"></p>
   </form>
 
   <!-- Done -->
-  <div class="smb-step" id="smb-done">
+  <div class="smb-step" id="smb-done" tabindex="-1">
     <h3>Thank you</h3>
     <p>We have your details. Arash will get back to you within one business day, usually sooner.</p>
     <p class="smb-note">If it is urgent, email <a href="mailto:arash.sabet@umplify.com">arash.sabet@umplify.com</a> directly.</p>
@@ -148,6 +158,7 @@
     [step1, step2, done].forEach(function (s) { s.classList.remove('is-active'); });
     el.classList.add('is-active');
     el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    el.focus();
   }
 
   function fail(el, message) {

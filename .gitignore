@@ -27,3 +27,7 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Internal planning docs: contain Azure resource identifiers and client
+# references. Keep local or move to the private umplify-forms repo.
+docs/superpowers/
