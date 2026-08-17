@@ -35,7 +35,7 @@
   <noscript>
     <p class="smb-note" style="color:#B42318;">
       This form needs JavaScript to work. If you have it turned off, email
-      <a href="mailto:arash.sabet@umplify.com">arash.sabet@umplify.com</a>
+      <a href="mailto:sales@umplify.com">sales@umplify.com</a>
       with a sentence or two about your business and we will take it from there.
     </p>
   </noscript>
@@ -138,7 +138,7 @@
   <div class="smb-step" id="smb-done" tabindex="-1">
     <h3>Thank you</h3>
     <p>We have your details. Umplify Inc. will get back to you within one business day, usually sooner.</p>
-    <p class="smb-note">If it is urgent, email <a href="mailto:arash.sabet@umplify.com">arash.sabet@umplify.com</a> directly.</p>
+    <p class="smb-note">If it is urgent, email <a href="mailto:sales@umplify.com">sales@umplify.com</a> directly.</p>
   </div>
 </div>
 
@@ -218,7 +218,7 @@
     .then(function (r) {
       busy(step1, false, 'Continue');
       if (!r.ok || !r.data.success) {
-        return fail(err1, r.data.message || 'Something went wrong. Please email arash.sabet@umplify.com and we will pick it up.');
+        return fail(err1, r.data.message || 'Something went wrong. Please email sales@umplify.com and we will pick it up.');
       }
       submissionId = r.data.submissionId || null;
       track('smb_lead_step1', { form_id: FORM_ID });
@@ -226,7 +226,7 @@
     })
     .catch(function () {
       busy(step1, false, 'Continue');
-      fail(err1, 'We could not reach our server. Please email arash.sabet@umplify.com and we will pick it up.');
+      fail(err1, 'We could not reach our server. Please email sales@umplify.com and we will pick it up.');
     });
   });
 

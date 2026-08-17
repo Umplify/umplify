@@ -54,7 +54,7 @@ Two short steps. The first takes about a minute, and the second is two questions
 
 {% include smb-lead-form.html %}
 
-If the form does not work for you, or you would rather just write to a person, email [arash.sabet@umplify.com](mailto:arash.sabet@umplify.com) with a sentence or two about your business.
+If the form does not work for you, or you would rather just write to a person, email [sales@umplify.com](mailto:sales@umplify.com) with a sentence or two about your business.
 
 ## Common questions
 

@@ -44,11 +44,11 @@ We keep enquiry records for two years, after which they are deleted automaticall
 
 ## Consent and unsubscribing
 
-When you submit a form, you are consenting to us contacting you about your enquiry. Today that means a direct reply from a person at Umplify, not an automated mailing list. If we ever start sending regular marketing email, we will ask for your consent to that separately, and every one of those messages will carry an unsubscribe link. You can tell us to stop contacting you at any time by replying to any email or writing to [arash.sabet@umplify.com](mailto:arash.sabet@umplify.com), and we will action it.
+When you submit a form, you are consenting to us contacting you about your enquiry. Today that means a direct reply from a person at Umplify, not an automated mailing list. If we ever start sending regular marketing email, we will ask for your consent to that separately, and every one of those messages will carry an unsubscribe link. You can tell us to stop contacting you at any time by replying to any email or writing to [sales@umplify.com](mailto:sales@umplify.com), and we will action it.
 
 ## Your rights
 
-Under Canadian privacy law you can ask us what personal information we hold about you, ask us to correct it, and ask us to delete it. Email [arash.sabet@umplify.com](mailto:arash.sabet@umplify.com) and we will respond within thirty days.
+Under Canadian privacy law you can ask us what personal information we hold about you, ask us to correct it, and ask us to delete it. Email [sales@umplify.com](mailto:sales@umplify.com) and we will respond within thirty days.
 
 ## Cookies
 
@@ -62,4 +62,4 @@ If we change this policy we will update the date at the top. Material changes wi
 
 **Umplify Technologies Inc.**
 Toronto, Ontario, Canada
-[arash.sabet@umplify.com](mailto:arash.sabet@umplify.com)
+[sales@umplify.com](mailto:sales@umplify.com)
