@@ -36,7 +36,7 @@ Form submissions are stored in Microsoft Azure in the Canada Central region, whi
 
 ## How long we keep it
 
-We keep enquiry records only as long as we need them to respond to you and to keep ordinary business records. We review them periodically and delete what we no longer need. If you ask us to delete your information, we will do that.
+We keep enquiry records for two years, after which they are deleted automatically. If you ask us to delete your information sooner, we will do that.
 
 ## Consent and unsubscribing
 

@@ -41,7 +41,7 @@ Most first projects are small and finish in weeks, not quarters. If we do not th
 
 ## Why a firm like ours
 
-Plenty of people will sell you an AI subscription. Fewer will sit down, work out which part of your business is worth automating, and stay accountable for whether it holds up in six months.
+Plenty of people will sell you an AI subscription. Fewer will sit down, work out which part of your business is worth automating, and hand it over in a state you can actually run.
 
 - **Toronto based.** We work across the GTA, remote by default, on site when it helps.
 - **Engineers, not resellers.** The person on your first call is the person who understands how it gets built.
