@@ -45,7 +45,7 @@ Plenty of people will sell you an AI subscription. Fewer will sit down, work out
 
 - **Toronto based.** We work across the GTA, remote by default, on site when it helps.
 - **Engineers, not resellers.** The person on your first call is the person who understands how it gets built.
-- **Your data stays yours.** Submissions are stored in Canadian data centres. We explain exactly what is stored and why, in the [privacy policy](/privacy/).
+- **Your data stays yours.** Your enquiry is stored in Canadian data centres. Some of the services and AI providers we use to deliver work run outside Canada, and their locations can be set by our suppliers. The [privacy policy](/privacy/) spells out what sits where.
 - **Plain language.** No jargon, no dashboards you will never open.
 
 ## Tell us what is eating your week
@@ -68,4 +68,4 @@ The call is thirty minutes. After that, expect an hour or two of your time in to
 Probably not. If you are a single operator losing evenings to paperwork, that is precisely the case where a few hours back per week is worth the most.
 
 **What happens to what I write here?**
-It goes to Arash directly and is stored in Canada. We use it to prepare for the call and nothing else. Full details are in the [privacy policy](/privacy/).
+It goes to Umplify Inc. directly and is stored in Canada. We use it to prepare for the call and nothing else. Some of the tools we use to deliver work run outside Canada, and the [privacy policy](/privacy/) explains exactly what that covers.

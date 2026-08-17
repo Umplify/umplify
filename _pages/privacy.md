@@ -32,7 +32,11 @@ We use the information you submit for one purpose: to respond to your enquiry an
 
 ## Where it is stored
 
-Form submissions are stored in Microsoft Azure in the Canada Central region, which is physically located in Ontario. Email notifications are delivered through Resend, our email provider. Website analytics are processed by Google.
+Form submissions are stored in Microsoft Azure in the Canada Central region, which is physically located in Ontario. That is a deliberate choice and we intend to keep it.
+
+Storing your enquiry in Canada is not the same as every system that touches it being in Canada, so we want to be straight with you about the rest. Email notifications are delivered through Resend, and website analytics are processed by Google, both of which operate outside Canada. When we deliver work, we also use AI models and other third party services whose processing can happen outside Canada. In some cases the region is chosen by our vendors and their own suppliers rather than by us, and those arrangements can change as our supply chain changes.
+
+If data location matters for your business, tell us before you share anything sensitive and we will explain what applies to your situation.
 
 ## How long we keep it
 
