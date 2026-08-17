@@ -94,6 +94,9 @@ analytics:
     tracking_id: "G-WSEKFYVPNE"
     anonymize_ip: true
 
+# Lead capture endpoint (Umplify/umplify-forms Azure Function)
+forms_endpoint: "https://func-umplify-forms.azurewebsites.net/api"
+
 author:
   name             : "Arash Sabet"
   avatar           : "https://avatars.githubusercontent.com/u/26050123?s=460&amp;u=ae2a53aa211d50cd0829f1235c54dd633ad3a8b5&amp;v=4"
