@@ -40,7 +40,7 @@ Umplify is best suited to:
 
 ## Selected client experience
 
-Some of the organizations whose development teams we have engaged with include TC Media, Royal and Sun Alliance Insurance Company of Canada (RSA), GuestLogix Inc., Munich Re Insurance, Comsense, and Manulife Insurance.
+Some of the organizations whose development teams we have engaged with include TC Media, Royal and Sun Alliance Insurance Company of Canada (RSA), GuestLogix Inc., Munich Re Insurance, and Manulife Insurance.
 
 ## Our delivery principles
 
