@@ -3,6 +3,8 @@ title: "Privacy Policy"
 permalink: /privacy/
 layout: single
 author_profile: false
+author:
+  name: "Umplify Technologies Inc."
 excerpt: "How Umplify collects, uses, stores, and deletes the personal information you share with us."
 header:
   overlay_color: "#08142C"
