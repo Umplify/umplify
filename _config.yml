@@ -118,6 +118,7 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - CLAUDE.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
