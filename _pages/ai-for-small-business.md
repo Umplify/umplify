@@ -3,6 +3,8 @@ title: "AI for Small Businesses in the Greater Toronto Area"
 permalink: /ai-for-small-business/
 layout: splash
 author_profile: false
+author:
+  name: "Umplify Technologies Inc."
 excerpt: "Hand the repetitive parts of running your business to AI, and get your evenings back. Practical AI help for small businesses across the GTA, from a Toronto engineering team."
 header:
   overlay_color: "#08142C"
