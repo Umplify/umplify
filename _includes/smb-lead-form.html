@@ -95,8 +95,8 @@
         <input type="email" id="smb-email" name="email" maxlength="200" required>
       </div>
       <div>
-        <label for="smb-phone">Phone (optional)</label>
-        <input type="tel" id="smb-phone" name="phone" maxlength="200">
+        <label for="smb-phone">Phone</label>
+        <input type="tel" id="smb-phone" name="phone" maxlength="200" required>
       </div>
     </div>
 
@@ -191,6 +191,7 @@
     if (!value(step1, 'firstName') || !value(step1, 'lastName')) { return fail(err1, 'Please give us your first and last name.'); }
     var email = value(step1, 'email');
     if (email.indexOf('@') < 0 || email.indexOf('.') < 0) { return fail(err1, 'Please enter a valid email address.'); }
+    if (!value(step1, 'phone')) { return fail(err1, 'Please give us a phone number so we can reach you.'); }
     if (!step1.elements['consent'].checked) { return fail(err1, 'Please tick the consent box so we are allowed to reply.'); }
 
     var payload = {
