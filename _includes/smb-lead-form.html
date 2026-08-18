@@ -96,7 +96,7 @@
       </div>
       <div>
         <label for="smb-phone">Phone</label>
-        <input type="tel" id="smb-phone" name="phone" maxlength="200" required>
+        <input type="tel" id="smb-phone" name="phone" maxlength="200" placeholder="416-555-0134" required>
       </div>
     </div>
 
@@ -168,6 +168,16 @@
 
   function clear(el) { el.style.display = 'none'; }
 
+  // Mirrors the server's North American Numbering Plan check: ten digits with an
+  // optional leading 1, area code and exchange both starting 2-9. Formatting is ignored.
+  function isNorthAmericanPhone(v) {
+    var d = (v || '').replace(/\D/g, '');
+    if (d.length === 11 && d.charAt(0) === '1') { d = d.slice(1); }
+    if (d.length !== 10) { return false; }
+    return d.charAt(0) >= '2' && d.charAt(0) <= '9' &&
+           d.charAt(3) >= '2' && d.charAt(3) <= '9';
+  }
+
   function value(form, name) {
     var el = form.elements[name];
     return el ? (el.value || '').trim() : '';
@@ -191,7 +201,9 @@
     if (!value(step1, 'firstName') || !value(step1, 'lastName')) { return fail(err1, 'Please give us your first and last name.'); }
     var email = value(step1, 'email');
     if (email.indexOf('@') < 0 || email.indexOf('.') < 0) { return fail(err1, 'Please enter a valid email address.'); }
-    if (!value(step1, 'phone')) { return fail(err1, 'Please give us a phone number so we can reach you.'); }
+    var phone = value(step1, 'phone');
+    if (!phone) { return fail(err1, 'Please give us a phone number so we can reach you.'); }
+    if (!isNorthAmericanPhone(phone)) { return fail(err1, 'Please enter a North American phone number, for example 416-555-0134.'); }
     if (!step1.elements['consent'].checked) { return fail(err1, 'Please tick the consent box so we are allowed to reply.'); }
 
     var payload = {
