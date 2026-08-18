@@ -7,3 +7,69 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+/* Site footer, added on top of the theme. The theme ships only a follow row and a
+   copyright line, which left the footer looking unfinished.
+   Note the footer background is LIGHT in this skin, so text here is dark. */
+.umplify-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em 1em 0.5em;
+  font-size: 0.78em;
+  line-height: 1.7;
+  text-align: left;
+  color: #4b5158;
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+
+  &__col {
+    flex: 1 1 180px;
+    min-width: 160px;
+  }
+
+  &__about { flex: 2 1 300px; }
+
+  &__name {
+    font-weight: 700;
+    color: #08142C;
+    margin: 0 0 0.6em;
+  }
+
+  &__heading {
+    font-weight: 700;
+    color: #08142C;
+    margin: 0 0 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.92em;
+  }
+
+  &__hint {
+    color: #7a8189;
+    font-size: 0.92em;
+  }
+
+  p { margin: 0 0 0.8em; }
+
+  ul {
+    list-style: none;
+    margin: 0 0 0.8em;
+    padding: 0;
+  }
+
+  li { margin: 0 0 0.5em; }
+
+  a {
+    color: #2c5aa0;
+    text-decoration: none;
+    &:hover, &:focus { text-decoration: underline; }
+  }
+}
+
+.umplify-footer__legal {
+  &::before { content: " \00b7 "; }
+  a { color: #2c5aa0; text-decoration: underline; }
+}
