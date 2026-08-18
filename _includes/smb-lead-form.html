@@ -1,0 +1,286 @@
+<!-- smb-lead-form.html: two-step GTA small business lead capture form.
+     Do not include this file more than once on the same page: the markup
+     below uses fixed element IDs (smb-form, smb-step-1, smb-step-2, smb-done,
+     and the field IDs inside them), and a second copy would break
+     getElementById lookups and label associations. -->
+<div class="smb-form" id="smb-form">
+  <style>
+    .smb-form { background: #F6F8FB; border: 1px solid #DDE3EC; border-radius: 8px; padding: 28px; margin: 2em 0; position: relative; }
+    .smb-form h3 { margin-top: 0; font-size: 1.25em; }
+    .smb-form label { display: block; font-size: 0.85em; font-weight: 600; margin: 14px 0 4px; color: #0F172A; }
+    .smb-form input[type=text], .smb-form input[type=email], .smb-form input[type=tel],
+    .smb-form select, .smb-form textarea {
+      width: 100%; padding: 10px 12px; border: 1px solid #C9D2E0; border-radius: 4px;
+      font-size: 1em; font-family: inherit; background: #fff; box-sizing: border-box;
+      margin-bottom: 0; box-shadow: none;
+    }
+    .smb-form textarea { min-height: 110px; resize: vertical; }
+    .smb-form form { padding: 0; margin: 0; background: none; border: 0; }
+    .smb-row { display: flex; gap: 14px; flex-wrap: wrap; }
+    .smb-row > div { flex: 1 1 200px; }
+    .smb-consent { display: flex; gap: 10px; align-items: flex-start; margin: 18px 0 6px; font-size: 0.85em; line-height: 1.5; }
+    .smb-consent input { margin-top: 3px; flex-shrink: 0; }
+    .smb-form button { background: #1F6FEB; color: #fff; border: 0; border-radius: 4px; padding: 13px 28px;
+      font-size: 1em; font-weight: 600; cursor: pointer; margin-top: 18px; }
+    .smb-form button[disabled] { opacity: 0.6; cursor: default; }
+    .smb-skip { background: none !important; color: #64748B !important; text-decoration: underline;
+      padding: 13px 12px !important; font-weight: 400 !important; }
+    .smb-form p.smb-error { color: #B42318; font-size: 0.88em; margin-top: 12px; display: none; }
+    .smb-hp { position: absolute; left: -5000px; width: 1px; height: 1px; overflow: hidden; }
+    .smb-step { display: none; }
+    .smb-step.is-active { display: block; }
+    .smb-form p.smb-note { font-size: 0.8em; color: #64748B; margin-top: 14px; }
+  </style>
+
+  <noscript>
+    <p class="smb-note" style="color:#B42318;">
+      This form needs JavaScript to work. If you have it turned off, email
+      <a href="mailto:sales@umplify.com">sales@umplify.com</a>
+      with a sentence or two about your business and we will take it from there.
+    </p>
+  </noscript>
+
+  <!-- Step 1 -->
+  <form class="smb-step is-active" id="smb-step-1" method="post" novalidate tabindex="-1">
+    <h3>Tell us about your business</h3>
+    <p class="smb-note">Takes about a minute. No obligation, and we will not add you to a mailing list.</p>
+
+    <label for="smb-company">Business name</label>
+    <input type="text" id="smb-company" name="company" maxlength="200" required>
+
+    <div class="smb-row">
+      <div>
+        <label for="smb-industry">Industry</label>
+        <select id="smb-industry" name="industry">
+          <option value="">Select one</option>
+          <option value="trades">Trades and contracting</option>
+          <option value="retail">Retail</option>
+          <option value="professional-services">Professional services</option>
+          <option value="clinics">Clinic or health practice</option>
+          <option value="hospitality">Hospitality and food</option>
+          <option value="real-estate">Real estate</option>
+          <option value="logistics">Logistics and transport</option>
+          <option value="other">Something else</option>
+        </select>
+      </div>
+      <div>
+        <label for="smb-size">How many people</label>
+        <select id="smb-size" name="businessSize">
+          <option value="">Select one</option>
+          <option value="just-me">Just me</option>
+          <option value="2-10">2 to 10</option>
+          <option value="11-50">11 to 50</option>
+          <option value="51-plus">51 or more</option>
+        </select>
+      </div>
+    </div>
+
+    <label for="smb-city">Where in the GTA</label>
+    <input type="text" id="smb-city" name="city" maxlength="200" placeholder="Toronto, Mississauga, Vaughan">
+
+    <div class="smb-row">
+      <div>
+        <label for="smb-first">First name</label>
+        <input type="text" id="smb-first" name="firstName" maxlength="200" required>
+      </div>
+      <div>
+        <label for="smb-last">Last name</label>
+        <input type="text" id="smb-last" name="lastName" maxlength="200" required>
+      </div>
+    </div>
+
+    <div class="smb-row">
+      <div>
+        <label for="smb-email">Email</label>
+        <input type="email" id="smb-email" name="email" maxlength="200" required>
+      </div>
+      <div>
+        <label for="smb-phone">Phone</label>
+        <input type="tel" id="smb-phone" name="phone" maxlength="200" placeholder="416-555-0134" required>
+      </div>
+    </div>
+
+    <div class="smb-hp" aria-hidden="true">
+      <label for="smb-website">Website</label>
+      <input type="text" id="smb-website" name="honeypot" tabindex="-1" autocomplete="off">
+    </div>
+
+    <div class="smb-consent">
+      <input type="checkbox" id="smb-consent" name="consent" required>
+      <label for="smb-consent" style="font-weight:400;margin:0;">
+        I agree that Umplify Technologies Inc. may contact me by email or phone about this enquiry.
+        I can unsubscribe at any time.
+        See the <a href="/privacy/">privacy policy</a>.
+      </label>
+    </div>
+
+    <button type="submit">Continue</button>
+    <p class="smb-error" id="smb-error-1" role="alert"></p>
+  </form>
+
+  <!-- Step 2 -->
+  <form class="smb-step" id="smb-step-2" method="post" novalidate tabindex="-1">
+    <h3>Two quick questions</h3>
+    <p class="smb-note">We have your details already. These help us come to the first call with something useful.</p>
+
+    <label for="smb-pain">What eats up your time right now?</label>
+    <textarea id="smb-pain" name="painPoints" maxlength="5000" placeholder="For example: I lose most evenings writing quotes and chasing unpaid invoices."></textarea>
+
+    <label for="smb-goals">If you could hand one thing to AI tomorrow, what would it be?</label>
+    <textarea id="smb-goals" name="aiGoals" maxlength="5000" placeholder="For example: drafting quotes from my notes after a site visit."></textarea>
+
+    <button type="submit">Send</button>
+    <button type="button" class="smb-skip" id="smb-skip">Skip this</button>
+    <p class="smb-error" id="smb-error-2" role="alert"></p>
+  </form>
+
+  <!-- Done -->
+  <div class="smb-step" id="smb-done" tabindex="-1">
+    <h3>Thank you</h3>
+    <p>We have your details. Umplify Inc. will get back to you within one business day, usually sooner.</p>
+    <p class="smb-note">If it is urgent, email <a href="mailto:sales@umplify.com">sales@umplify.com</a> directly.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var ENDPOINT = '{{ site.forms_endpoint }}';
+  var FORM_ID  = 'umplify-gta-smb';
+
+  var step1 = document.getElementById('smb-step-1');
+  var step2 = document.getElementById('smb-step-2');
+  var done  = document.getElementById('smb-done');
+  var err1  = document.getElementById('smb-error-1');
+  var err2  = document.getElementById('smb-error-2');
+  var submissionId = null;
+
+  function show(el) {
+    [step1, step2, done].forEach(function (s) { s.classList.remove('is-active'); });
+    el.classList.add('is-active');
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    el.focus();
+  }
+
+  function fail(el, message) {
+    el.textContent = message;
+    el.style.display = 'block';
+  }
+
+  function clear(el) { el.style.display = 'none'; }
+
+  // Mirrors the server's North American Numbering Plan check: ten digits with an
+  // optional leading 1, area code and exchange both starting 2-9. Formatting is ignored.
+  function isNorthAmericanPhone(v) {
+    var d = (v || '').replace(/\D/g, '');
+    if (d.length === 11 && d.charAt(0) === '1') { d = d.slice(1); }
+    if (d.length !== 10) { return false; }
+    return d.charAt(0) >= '2' && d.charAt(0) <= '9' &&
+           d.charAt(3) >= '2' && d.charAt(3) <= '9';
+  }
+
+  function value(form, name) {
+    var el = form.elements[name];
+    return el ? (el.value || '').trim() : '';
+  }
+
+  function busy(form, isBusy, label) {
+    var btn = form.querySelector('button[type=submit]');
+    btn.disabled = isBusy;
+    btn.textContent = isBusy ? 'Sending...' : label;
+  }
+
+  function track(name, params) {
+    if (typeof window.gtag === 'function') { window.gtag('event', name, params || {}); }
+  }
+
+  step1.addEventListener('submit', function (e) {
+    e.preventDefault();
+    clear(err1);
+
+    if (!value(step1, 'company')) { return fail(err1, 'Please tell us your business name.'); }
+    if (!value(step1, 'firstName') || !value(step1, 'lastName')) { return fail(err1, 'Please give us your first and last name.'); }
+    var email = value(step1, 'email');
+    if (email.indexOf('@') < 0 || email.indexOf('.') < 0) { return fail(err1, 'Please enter a valid email address.'); }
+    var phone = value(step1, 'phone');
+    if (!phone) { return fail(err1, 'Please give us a phone number so we can reach you.'); }
+    if (!isNorthAmericanPhone(phone)) { return fail(err1, 'Please enter a North American phone number, for example 416-555-0134.'); }
+    if (!step1.elements['consent'].checked) { return fail(err1, 'Please tick the consent box so we are allowed to reply.'); }
+
+    var payload = {
+      formId:       FORM_ID,
+      firstName:    value(step1, 'firstName'),
+      lastName:     value(step1, 'lastName'),
+      email:        email,
+      phone:        value(step1, 'phone'),
+      company:      value(step1, 'company'),
+      industry:     value(step1, 'industry'),
+      businessSize: value(step1, 'businessSize'),
+      city:         value(step1, 'city'),
+      consent:      true,
+      honeypot:     value(step1, 'honeypot')
+    };
+
+    busy(step1, true, 'Continue');
+
+    fetch(ENDPOINT + '/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function (res) { return res.json().then(function (data) { return { ok: res.ok, data: data }; }); })
+    .then(function (r) {
+      busy(step1, false, 'Continue');
+      if (!r.ok || !r.data.success) {
+        return fail(err1, r.data.message || 'Something went wrong. Please email sales@umplify.com and we will pick it up.');
+      }
+      submissionId = r.data.submissionId || null;
+      track('smb_lead_step1', { form_id: FORM_ID });
+      show(step2);
+    })
+    .catch(function () {
+      busy(step1, false, 'Continue');
+      fail(err1, 'We could not reach our server. Please email sales@umplify.com and we will pick it up.');
+    });
+  });
+
+  step2.addEventListener('submit', function (e) {
+    e.preventDefault();
+    clear(err2);
+
+    if (!submissionId) { track('smb_lead_step2', { form_id: FORM_ID, skipped: true }); return show(done); }
+
+    var payload = {
+      formId:       FORM_ID,
+      submissionId: submissionId,
+      painPoints:   value(step2, 'painPoints'),
+      aiGoals:      value(step2, 'aiGoals')
+    };
+
+    busy(step2, true, 'Send');
+
+    fetch(ENDPOINT + '/submit/details', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function (res) { return res.json().then(function (data) { return { ok: res.ok, data: data }; }); })
+    .then(function (r) {
+      busy(step2, false, 'Send');
+      if (!r.ok || !r.data.success) {
+        return fail(err2, 'We already have your contact details, but we could not save these answers. You can reply to our email instead.');
+      }
+      track('smb_lead_step2', { form_id: FORM_ID, skipped: false });
+      show(done);
+    })
+    .catch(function () {
+      busy(step2, false, 'Send');
+      fail(err2, 'We already have your contact details, but we could not save these answers. You can reply to our email instead.');
+    });
+  });
+
+  document.getElementById('smb-skip').addEventListener('click', function () {
+    track('smb_lead_step2', { form_id: FORM_ID, skipped: true });
+    show(done);
+  });
+})();
+</script>
