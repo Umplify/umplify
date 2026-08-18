@@ -18,4 +18,53 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} All rights reserved.</div>
+{% comment %}
+  Deliberately omits /ai-for-small-business/. That page is an unlinked campaign
+  landing page, and linking it here would put it back into the site's structure.
+{% endcomment %}
+<div class="umplify-footer">
+  <div class="umplify-footer__grid">
+
+    <div class="umplify-footer__col umplify-footer__about">
+      <p class="umplify-footer__name">Umplify Technologies Inc.</p>
+      <p>AI transformation and Azure cloud platform engineering for software-led businesses, ISVs, and scale-ups.</p>
+      <p>Toronto, Ontario, Canada. We work across the Greater Toronto Area, the rest of Canada, and the United States.</p>
+    </div>
+
+    <div class="umplify-footer__col">
+      <p class="umplify-footer__heading">What we do</p>
+      <ul>
+        <li><a href="{{ '/ai-transformation/' | relative_url }}">AI Transformation</a></li>
+        <li><a href="{{ '/cloud-solutions/' | relative_url }}">Azure Platform Engineering</a></li>
+        <li><a href="{{ '/how-we-engage/' | relative_url }}">How We Engage</a></li>
+        <li><a href="{{ '/what-umplify-offers/' | relative_url }}">What We Offer</a></li>
+      </ul>
+    </div>
+
+    <div class="umplify-footer__col">
+      <p class="umplify-footer__heading">Company</p>
+      <ul>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/our-mission/' | relative_url }}">Our Mission</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="umplify-footer__col">
+      <p class="umplify-footer__heading">Talk to us</p>
+      <ul>
+        <li><a href="mailto:sales@umplify.com">sales@umplify.com</a><br><span class="umplify-footer__hint">New engagements</span></li>
+        <li><a href="mailto:support@umplify.com">support@umplify.com</a><br><span class="umplify-footer__hint">Existing clients</span></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Book a discovery call</a></li>
+      </ul>
+      <p class="umplify-footer__hint">8:30 AM to 5:00 PM EST, Monday to Friday. We reply within one business day.</p>
+    </div>
+
+  </div>
+</div>
+
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} All rights reserved.
+  <span class="umplify-footer__legal"><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></span>
+</div>
