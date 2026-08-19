@@ -35,3 +35,8 @@ Gemfile.preview
 Gemfile.preview.lock
 _config.preview.yml
 .playwright-mcp/
+
+# Marketing creative. Kept local and out of the repository by the owner's
+# decision: this repo is public, and the campaign artwork is managed
+# elsewhere rather than versioned here.
+assets/images/marketing/
