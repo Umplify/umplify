@@ -95,7 +95,7 @@ Two decades of senior software engineering depth, focused on Microsoft Azure, .N
 
 ## Selected client experience
 
-Some of the development teams we have engaged with include TC Media, Royal and Sun Alliance Insurance Company of Canada (RSA), GuestLogix Inc., Munich Re Insurance, Comsense, and Manulife Insurance.
+Some of the development teams we have engaged with include TC Media, Royal and Sun Alliance Insurance Company of Canada (RSA), GuestLogix Inc., Munich Re Insurance, and Manulife Insurance.
 
 ## Ideal fit
 
