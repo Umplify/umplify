@@ -61,7 +61,7 @@ If the form does not work for you, or you would rather just write to a person, e
 ## Common questions
 
 **What does this cost?**
-The first call is free. After that, most first projects are a fixed price agreed before any work starts, so there is no open meter. We will tell you the number before you commit to anything.
+The first call is free, and there is no obligation after it. Any paid work, including anything ongoing or recurring, is scoped and quoted in writing before it begins. You see the number first, and nothing continues or renews unless you agree to it. Third-party software, AI provider, and subscription fees are not included.
 
 **How much of my time will this take?**
 The call is thirty minutes. After that, expect an hour or two of your time in total, mostly showing us how the task is done today.
@@ -69,5 +69,11 @@ The call is thirty minutes. After that, expect an hour or two of your time in to
 **Is my business too small for this?**
 Probably not. If you are a single operator losing evenings to paperwork, that is precisely the case where a few hours back per week is worth the most.
 
+**Am I signing up for something ongoing?**
+No. A first project stands on its own. If it makes sense to keep something running afterwards, that is a separate conversation with its own written quote, and you decide whether to take it. Nothing rolls over automatically.
+
 **What happens to what I write here?**
 It goes to Umplify Inc. directly and is stored in Canada. We use it to prepare for the call and nothing else. Some of the tools we use to deliver work run outside Canada, and the [privacy policy](/privacy/) explains exactly what that covers.
+
+{: .notice--info}
+The first call is free. Any paid work, including anything ongoing, is scoped and quoted in writing before it starts. Outcomes vary by business, and we do not guarantee specific time savings, cost savings, or results. AI-assisted output needs human review. Third-party software, AI provider, and subscription fees are not included. Nothing here is legal, tax, or accounting advice. Umplify Technologies Inc. may decline an engagement.
