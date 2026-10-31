@@ -105,6 +105,27 @@
 </script>
 {% endif %}
 
+{% if page.product_schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": {{ page.title | jsonify }},
+  "description": {{ seo_description | strip_html | strip_newlines | jsonify }},
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "url": "{{ page.product_url | default: page.url | absolute_url }}",
+  "sameAs": ["{{ page.url | absolute_url }}"],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Umplify Technologies Inc.",
+    "url": "{{ site.url }}"
+  },
+  "image": "{{ absolute_seo_image }}"
+}
+</script>
+{% endif %}
+
 {% if page.url == '/faq/' %}
 <script type="application/ld+json">
 {

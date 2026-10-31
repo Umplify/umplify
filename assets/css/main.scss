@@ -73,3 +73,487 @@ search: false
   &::before { content: " \00b7 "; }
   a { color: #2c5aa0; text-decoration: underline; }
 }
+
+/* Acquiror AI brand, used by the home page spotlight (_includes/acquiror-spotlight.html)
+   and the /acquiror-ai/ hero (_includes/acquiror-hero.html). Palette, fonts, logo lockup and
+   buttons follow acquiror.ai's own brand CSS. Sizes are in px where acquiror.ai uses rem,
+   because this theme scales the root font size up to 22px on wide screens. */
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/space-grotesk/space-grotesk-latin-600-normal.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter/inter-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter/inter-latin-600-normal.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.acq-spotlight,
+.acq-hero {
+  --acq-ink: #06101F;
+  --acq-surface: #0F2140;
+  --acq-hairline: #1E3960;
+  --acq-emerald: #18C98C;
+  --acq-teal: #2FE0C0;
+  --acq-gold: #D7B981;
+  --acq-cloud: #F4F7FB;
+  --acq-muted: #9FB4CC;
+  --acq-faint: #8093AB;
+  --acq-display: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --acq-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  font-family: var(--acq-body);
+  color: var(--acq-cloud);
+}
+
+/* Logo lockup as on acquiror.ai: the mark tile plus Space Grotesk 600 at -0.02em. */
+a.acq-lockup,
+a.acq-lockup:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font: 600 24px/1 var(--acq-display);
+  letter-spacing: -0.02em;
+  color: var(--acq-cloud);
+  text-decoration: none;
+
+  img { display: block; width: 40px; height: 40px; }
+}
+
+/* Buttons as on acquiror.ai: the primary is the emerald-to-teal gradient, 160% wide so
+   hover can slide it; the quiet button is an outline. */
+a.acq-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 20px;
+  border: 1.5px solid transparent;
+  border-radius: 8px;
+  font: 600 16px/1.2 var(--acq-body);
+  text-decoration: none;
+  transition: background-position 0.3s, background-color 0.2s, border-color 0.2s;
+
+  &:focus-visible {
+    outline: 3px solid var(--acq-teal);
+    outline-offset: 3px;
+  }
+}
+
+a.acq-btn--primary,
+a.acq-btn--primary:visited {
+  background-color: var(--acq-emerald);
+  background-image: linear-gradient(135deg, var(--acq-emerald), var(--acq-teal));
+  background-size: 160% 100%;
+  background-position: 0 0;
+  color: var(--acq-ink);
+
+  &:hover { background-position: 100% 0; }
+}
+
+a.acq-btn--quiet,
+a.acq-btn--quiet:visited {
+  background: transparent;
+  border-color: var(--acq-faint);
+  color: var(--acq-cloud);
+
+  &:hover {
+    border-color: var(--acq-cloud);
+    background: rgba(159, 180, 204, 0.12);
+  }
+}
+
+/* Home page spotlight. Umplify navy ground so it still sits inside the Umplify site. */
+.acq-spotlight {
+  margin: 3em 0;
+  padding: clamp(1.5rem, 4vw, 3.25rem);
+  border-radius: 20px;
+  background: #08142C;
+
+  &__brand {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75em 1.5em;
+    margin-bottom: 1.75em;
+  }
+
+  &__maker {
+    font-size: 0.75em;
+    color: var(--acq-muted);
+  }
+
+  /* Headline left, description and buttons right on wide screens. */
+  &__intro {
+    @include breakpoint($large) {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+      gap: 3rem;
+      align-items: end;
+
+      .acq-spotlight__title { margin-bottom: 0; }
+      .acq-spotlight__lede { margin-bottom: 1.5em; }
+    }
+  }
+
+  .acq-spotlight__title {
+    max-width: 28ch;
+    text-wrap: balance;
+    margin: 0 0 0.6em;
+    padding: 0;
+    border: 0;
+    font-family: var(--acq-display);
+    font-weight: 600;
+    // Interpolated so the GitHub Pages Sass does not try to evaluate the rem + vw sum.
+    font-size: #{"clamp(1.55rem, 1.1rem + 1.6vw, 2.15rem)"};
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--acq-cloud);
+  }
+
+  &__lede {
+    max-width: 62ch;
+    margin: 0 0 1.75em;
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: var(--acq-muted);
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75em;
+  }
+
+  /* The deal path: a real sequence, so the steps are numbered. Stacks vertically on
+     small screens and runs as one horizontal rail from medium up. */
+  ol.acq-spotlight__flow {
+    --node: 1.9rem;
+    --gap: 1.1rem;
+
+    counter-reset: acq-step;
+    display: grid;
+    gap: var(--gap);
+    margin: 2.5em 0 0;
+    padding: 2em 0 0;
+    border-top: 1px solid rgba(234, 242, 255, 0.1);
+    list-style: none;
+
+    li {
+      position: relative;
+      margin: 0;
+      padding-left: calc(var(--node) + 0.9rem);
+      min-height: var(--node);
+      font-size: 0.78em;
+      line-height: 1.4;
+      color: var(--acq-muted);
+      counter-increment: acq-step;
+
+      &::before {
+        content: counter(acq-step);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: grid;
+        place-items: center;
+        width: var(--node);
+        height: var(--node);
+        border: 2px solid var(--acq-emerald);
+        border-radius: 50%;
+        background: #08142C;
+        font: 600 0.85rem/1 var(--acq-display);
+        color: var(--acq-emerald);
+        box-sizing: border-box;
+      }
+
+      &:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: var(--node);
+        bottom: calc(-1 * var(--gap));
+        left: calc(var(--node) / 2 - 1px);
+        width: 2px;
+        background: rgba(24, 201, 140, 0.35);
+      }
+
+      &:last-child::before {
+        background: var(--acq-emerald);
+        color: var(--acq-ink);
+      }
+    }
+
+    strong {
+      display: block;
+      margin-bottom: 0.15em;
+      font: 600 1.2em/1.2 var(--acq-display);
+      color: var(--acq-cloud);
+    }
+
+    @include breakpoint($medium) {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+
+      li {
+        padding: calc(var(--node) + 0.8rem) 0 0;
+
+        &:not(:last-child)::after {
+          top: calc(var(--node) / 2 - 1px);
+          bottom: auto;
+          left: var(--node);
+          right: calc(-1 * var(--gap));
+          width: auto;
+          height: 2px;
+        }
+      }
+    }
+  }
+}
+
+/* /acquiror-ai/ hero, in place of the theme overlay hero (header.custom_hero). Mirrors the
+   acquiror.ai home hero: ink ground with the emerald and teal glow, emerald audience line,
+   Space Grotesk headline, and the "Three methods, one range" valuation card. */
+.acq-hero {
+  padding: clamp(2.5rem, 5vw, 4.5rem) 1em clamp(3rem, 6vw, 5rem);
+  background-color: var(--acq-ink);
+  background-image:
+    radial-gradient(60% 55% at 78% 0%, rgba(47, 224, 192, 0.2), transparent 70%),
+    radial-gradient(55% 60% at 8% 100%, rgba(24, 201, 140, 0.13), transparent 70%);
+
+  &__inner {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  &__brand {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 16px;
+    margin-bottom: clamp(2rem, 4vw, 3rem);
+  }
+
+  &__maker {
+    padding: 4px 10px;
+    border: 1px solid var(--acq-hairline);
+    border-radius: 999px;
+    font-size: 13px;
+    color: var(--acq-muted);
+  }
+
+  &__grid {
+    display: grid;
+    gap: 40px;
+
+    @include breakpoint($large) {
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: clamp(2rem, 5vw, 4.5rem);
+      align-items: center;
+    }
+  }
+
+  p.acq-hero__audience {
+    margin: 0 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--acq-emerald);
+  }
+
+  h1.acq-hero__title {
+    max-width: 23ch;
+    margin: 0;
+    font-family: var(--acq-display);
+    font-weight: 600;
+    font-size: #{"clamp(34px, 17.6px + 2.7vw, 52px)"};
+    line-height: 1.04;
+    letter-spacing: -0.035em;
+    color: var(--acq-cloud);
+    text-wrap: balance;
+  }
+
+  p.acq-hero__sub {
+    max-width: 54ch;
+    margin: 28px 0 0;
+    font-size: #{"clamp(17px, 16px + 0.4vw, 21px)"};
+    line-height: 1.55;
+    color: var(--acq-muted);
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 32px;
+  }
+
+  p.acq-hero__micro {
+    margin: 14px 0 0;
+    font-size: 14px;
+    color: var(--acq-faint);
+  }
+}
+
+figure.acq-tri {
+  display: block;
+  width: 100%;
+  max-width: 496px;
+  margin: 0;
+
+  @include breakpoint($large) { justify-self: end; }
+
+  figcaption {
+    margin: 10px 0 0;
+    font-family: var(--acq-body);
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--acq-faint);
+  }
+}
+
+.acq-tri {
+  --label: 132px;
+  --off: calc(var(--label) + 12px);
+
+  &__card {
+    padding: 24px 24px 20px;
+    border: 1px solid var(--acq-hairline);
+    border-radius: 16px;
+    background: var(--acq-surface);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), 0 28px 64px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(159, 180, 204, 0.1);
+  }
+
+  p.acq-tri__title {
+    margin: 0;
+    font: 600 19px/1.25 var(--acq-display);
+    letter-spacing: -0.015em;
+    color: var(--acq-cloud);
+  }
+
+  &__chart {
+    position: relative;
+    display: grid;
+    gap: 22px;
+    margin-top: 24px;
+    padding-bottom: 40px;
+  }
+
+  &__row {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: var(--label) minmax(0, 1fr);
+    column-gap: 12px;
+    align-items: center;
+  }
+
+  &__label {
+    font-size: 13px;
+    line-height: 1.3;
+    color: var(--acq-muted);
+  }
+
+  &__track {
+    position: relative;
+    display: block;
+    height: 12px;
+    border-radius: 999px;
+    background: rgba(159, 180, 204, 0.14);
+  }
+
+  &__bar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--acq-emerald), var(--acq-teal));
+    transform-origin: left center;
+  }
+
+  &__row:nth-of-type(1) &__bar { left: 26%; width: 50%; }
+  &__row:nth-of-type(2) &__bar { left: 40%; width: 46%; }
+  &__row:nth-of-type(3) &__bar { left: 14%; width: 44%; }
+
+  /* The gold band marks where the three ranges overlap. */
+  &__band {
+    position: absolute;
+    z-index: 0;
+    top: -10px;
+    bottom: 34px;
+    left: calc(var(--off) + (100% - var(--off)) * 0.4);
+    width: calc((100% - var(--off)) * 0.18);
+    border: 1.5px solid var(--acq-gold);
+    border-radius: 10px;
+    background: rgba(215, 185, 129, 0.1);
+    transform-origin: center bottom;
+  }
+
+  &__band-label {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 7px;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--acq-gold);
+  }
+
+  p.acq-tri__result {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 10px;
+    margin: 4px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid var(--acq-hairline);
+    font-size: 14px;
+    color: var(--acq-muted);
+  }
+
+  &__stat {
+    font-family: var(--acq-display);
+    font-weight: 600;
+    font-size: #{"clamp(28px, 19.2px + 1.4vw, 36px)"};
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--acq-gold);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* The one load moment on the page: the bars draw in, then the concluded range lands. */
+@media (prefers-reduced-motion: no-preference) {
+  .acq-tri__bar {
+    animation: acq-tri-draw 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: calc(220ms + var(--i, 0) * 140ms);
+  }
+
+  .acq-tri__row:nth-of-type(2) .acq-tri__bar { --i: 1; }
+  .acq-tri__row:nth-of-type(3) .acq-tri__bar { --i: 2; }
+
+  .acq-tri__band { animation: acq-tri-land 700ms cubic-bezier(0.16, 1, 0.3, 1) 900ms both; }
+}
+
+@keyframes acq-tri-draw {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes acq-tri-land {
+  from { opacity: 0; transform: scaleY(0.7); }
+  to { opacity: 1; transform: none; }
+}

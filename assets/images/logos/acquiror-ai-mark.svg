@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Acquiror">
+  <!-- Flat brand mark: emerald tile + drawn ink "A". Two colors only, no gradient. Same path as src/partials/shell.mjs. -->
+  <rect width="64" height="64" rx="15" ry="15" fill="#18C98C"/>
+  <path transform="translate(10 10) scale(1.375)" fill="#06101F" fill-rule="evenodd" d="M13.4 4h5.2L30 28h-5.6l-2.4-5.2H10L7.6 28H2Zm2.6 6.2L11.9 18.2h8.2Z"/>
+</svg>
