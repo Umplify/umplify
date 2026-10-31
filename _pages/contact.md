@@ -36,6 +36,7 @@ If you are not sure which fits, send us a few sentences about your situation and
 - **Existing clients and support:** [support@umplify.com](mailto:support@umplify.com)
 - **Business hours (Toronto, ON):** 8:30 AM to 5:00 PM EST, Monday to Friday
 - **Typical response time:** within one business day
+- **Mailing address:** Umplify Technologies Inc., 6 - 2160 Highway 7 #1006, Vaughan, ON L4K 1W6, Canada
 
 ## What to include in your first message
 

@@ -70,6 +70,7 @@ feature_row_left1:
 
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="feature_row" %}
+{% include acquiror-spotlight.html %}
 {% include feature_row id="feature_row_right1" type="right" %}
 {% include feature_row id="feature_row_left1" type="left" %}
 
